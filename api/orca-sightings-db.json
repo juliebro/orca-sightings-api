@@ -1,0 +1,110 @@
+{
+	"users": [
+		{
+			"last_name": "Marsh",
+			"first_name": "Stan",
+			"email": "stan.marsh@gmail.com",
+			"id": 1
+		},
+		{
+			"last_name": "Broflovski",
+			"first_name": "Kyle",
+			"email": "kyle.broflovski@yahoo.com",
+			"id": 2
+		},
+		{
+			"last_name": "Cartman",
+			"first_name": "Eric",
+			"email": "eric.cartman@hotmail.com",
+			"id": 3
+		},
+		{
+			"last_name": "McCormick",
+			"first_name": "Kenny",
+			"email": "kenny.mccormick@gmail.com",
+			"id": 4
+		}
+	],
+	"sighting": [
+		{
+			"id": 1,
+			"user_id": 1,
+			"pod": "J-pod",
+			"year": 2025
+			"month": 05,
+			"day": 3,
+			"time": "10:00",
+			"location": "Lime Kiln Point State Park"
+		},
+		{
+			"id": 2,
+			"user_id": 3,
+			"pod": "T49A",
+			"year": 2025,
+			"month": 05,
+			"day": 1,
+			"time": "19:00",
+			"location": "Patos Island"
+		},
+		{
+			"id": 3,
+			"user_id": 4,
+			"pod": "unknown",
+			"year": 2025,
+			"month": 04,
+			"day": 28,
+			"time": "12:30",
+			"location": "Shaw Island"
+		},
+		{
+			"id": 4,
+			"user_id": 3,
+			"pod": "K-pod",
+			"year": 2025,
+			"month": 02,
+			"day": 15,
+			"time": "10:00",
+			"location": "Lime Kiln Point State Park"
+		},
+		{
+			"id": 5,
+			"user_id": 2,
+			"pod": "J-pod",
+			"year": 2025,
+			"month": 01,
+			"day": 20,
+			"time": "13:00",
+			"location": "Lime Kiln Point State Park"
+		},
+		{
+			"id": 6,
+			"user_id": 1,
+			"pod": "K-pod",
+			"year": 2024,
+			"month": 12,
+			"day": 24,
+			"time": "17:15",
+			"location": "Friday Harbor"
+		},
+		{
+			"id": 7,
+			"user_id": 4,
+			"pod": "T49A",
+			"year": 2025,
+			"month": 12,
+			"day": 13,
+			"time": "06:00",
+			"location": "Reuben Tarte County Park"
+		},
+		{
+			"id": 8,
+			"user_id": 2,
+			"pod": "T49A",
+			"year": 2025,
+			"month": 01,
+			"day": 30,
+			"time": "11:00",
+			"location": "Lime Kiln Point State Park"
+		}
+	]
+}
