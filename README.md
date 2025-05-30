@@ -15,4 +15,4 @@ This is a RESTful API service with `/users` and `/sightings` resources. Each res
 
 ## Next steps
 
-[Download the API database file](./api/orca-sightings-db.json) and [read the docs](./docs/index.md).
+[Download the API database file](./api/orca-sightings-db.json) and [read the docs](https://juliebro.github.io/orca-sightings-api/).
