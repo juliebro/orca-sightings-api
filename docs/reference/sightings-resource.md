@@ -23,7 +23,7 @@ This table describes all of the fields available in the `/sightings` resource:
 | `id`       | `integer` | Unique identifier for the sighting. Read-only and automatically generated. | `1`                            |
 | `user_id`  | `integer` | The ID of the user who reported the sighting, as described in the [`/users` resource](./users-resource). | `1`                            |
 | `pod`      | `string`  | The identified pod of orca. Available attributes are `J-pod`, `K-pod`, `T49A`, and `unknown`). | `"J-pod"`                      |
-| `time`     | `string`  | The timestamp of the sighting in ISO 8601 format.            | `"2025-05-03T10:00"`           |
+| `time`     | `string`  | The timestamp of the sighting in [ISO 8601 format](./iso-8601-format.md). | `"2025-05-03T10:00"`           |
 | `location` | `string`  | The location where the sighting occurred.                    | `"Lime Kiln Point State Park"` |
 
 ## Actions by method
