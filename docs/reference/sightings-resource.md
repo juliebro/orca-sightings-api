@@ -32,18 +32,18 @@ This table describes all of the fields available in the `/sightings` resource:
 
 ### `GET` 
 
-* Get all users
-* Get user by ID
+* Get all sightings
+* Get a sighting by ID
 
 ### `POST` 
 
-* Create a user
+* Create a new sighting
 
 ### `PUT` 
 
-* Update an existing user's information
+* Update the information for an existing sighting
 
 ### `DELETE` 
 
-* Delete a user
+* Delete a sighting
 
