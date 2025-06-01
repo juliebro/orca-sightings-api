@@ -10,7 +10,7 @@ Using this service, orca enthusiasts can report the location and time of their s
 
 ## User community
 
-The orca whale watching community is niche but active. It includes a variety of enthusiasts from around the world, and many seek the orca that frequent the San Juan Islands. Orca pods swim near the land there where whale watecers can see them year-round. Their large dorsal fins make them easier to spot from far away than other whales or dolphins.
+The orca whale watching community is niche but active. It includes a variety of enthusiasts from around the world, and many seek the orca that frequent the San Juan Islands. Whale watchers can see orca pods swim near the land there year-round. Their large dorsal fins make them easier to spot from far away than other whales or dolphins.
 
 ## Features of the Orca Sightings service
 
@@ -23,10 +23,10 @@ This is a RESTful API service with `/users` and `/sightings` resources. Each res
 
 ## Next steps
 
-[Download the API database file](../api/orca-sightings-db.json) and [get started](../docs/tutorials/quickstart.md).
+[Download the API database file](./api/orca-sightings-db.json) and [get started](./docs/tutorials/quickstart.md).
 
 Also see:
 
-* [How to](./how-tos/placeholder-howtos.md)
+* [How To](./how-tos/placeholder-howtos.md)
 * [Tutorials](./tutorials/tutorial.md)
-* [API reference](./reference/index.md)
+* [API Reference](./reference/index.md)
