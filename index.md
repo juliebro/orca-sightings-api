@@ -23,10 +23,10 @@ This is a RESTful API service with `/users` and `/sightings` resources. Each res
 
 ## Next steps
 
-[Download the API database file](../api/orca-sightings-db.json) and [get started](./tutorials/quickstart.md).
+[Download the API database file](./api/orca-sightings-db.json) and [get started](./docs/tutorials/quickstart.md).
 
 Also see:
 
-* [How To](./how-tos/placeholder-howtos.md)
-* [Tutorials](./tutorials/tutorial.md)
-* [API Reference](./reference/index.md)
+* [How To](./docs/how-tos/placeholder-howtos.md)
+* [Tutorials](./docs/tutorials/tutorial.md)
+* [API Reference](./docs/reference/index.md)
