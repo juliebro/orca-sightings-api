@@ -4,11 +4,13 @@ This cloud-based service tracks the movements of orca pods around the San Juan I
 
 Using this service, orca enthusiasts can report the location and time of their sightings off the coast of any of the San Juan Islands, making it easy for others to sight these whales from land so they don't have to charter a boat. As a developer, you can include this service in your app.
 
+*This is a simulated REST inferface only for the demonstration of API documentation.*
+
 ![ Photo of Orca whales](https://images.unsplash.com/photo-1602264836619-094873fa05fc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JjYSUyMHdoYWxlfGVufDB8fDB8fHww)
 
 ## User community
 
-The orca whale watching community is niche but active. It includes a variety of enthusiasts from around the world, and many seek the orca that frequent the San Juan Islands.
+The orca whale watching community is niche but active. It includes a variety of enthusiasts from around the world, and many seek the orca that frequent the San Juan Islands. Orca pods swim near the land there where whale watecers can see them year-round. Their large dorsal fins make them easier to spot from far away than other whales or dolphins.
 
 ## Features of the Orca Sightings service
 
@@ -25,6 +27,6 @@ This is a RESTful API service with `/users` and `/sightings` resources. Each res
 
 Also see:
 
-* [How To](./how-tos/placeholder-howtos.md)
+* [How to](./how-tos/placeholder-howtos.md)
 * [Tutorials](./tutorials/tutorial.md)
-* [API Reference](./reference/placeholder-ref.md)
+* [API reference](./reference/index.md)

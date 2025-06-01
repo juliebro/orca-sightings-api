@@ -2,16 +2,20 @@
 
 The `/users` resource does (info to come).
 
+Also see:
+
+* *Info to come.*
+
 ## Resource properties
 
 This code block shows an example of a full `/users` resource:
 
 ```json
 {
-	"last_name": "Marsh",
-	"first_name": "Stan",
-	"email": "stan.marsh@gmail.com",
-	"id": 1
+    "last_name": "Marsh",
+    "first_name": "Stan",
+    "email": "stan.marsh@gmail.com",
+    "id": 1
 },
 ```
 
@@ -30,17 +34,17 @@ This table describes all of the fields available in the `/users` resource:
 
 ### `GET`
 
-- Get all sightings
-- Get a sighting by ID
+* Get all sightings
+* Get a sighting by ID
 
 ### `POST`
 
-- Create a new sighting
+* Create a new sighting
 
 ### `PUT`
 
-- Update an existing sighting's information
+* Update an existing sighting's information
 
 ### `DELETE`
 
-- Delete a sighting
+* Delete a sighting

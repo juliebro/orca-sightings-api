@@ -28,4 +28,4 @@ ISO 8601 is a widely used international standard for representing dates and time
 
 ## Related topic
 
-* [`sightings` resource](./sightings-resource.md)
+* [`sightings` resource](./sightings-resource/sightings-resource.md)
