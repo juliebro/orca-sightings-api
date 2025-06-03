@@ -1,10 +1,8 @@
 # `/sightings` resource
 
-The `/sightings` resource does *(info to come)*.
+The `/sightings` resource lets you add a new orca whale sighting, update an existing sighting by its ID, list all sightings, list a sighting by its ID, or delete an existing sighting by its ID.
 
-Also see:
-
-* Info to come
+Also see the [`/users` resource](../users-resource/users-resource.md).
 
 ## Resource properties
 
@@ -32,21 +30,19 @@ This table describes all of the fields available in the `/sightings` resource:
 
 ## Actions by method
 
-*(This section will link to the relevant reference topics.)*
-
 ### `GET`
 
-* Get all users
-* Get user by ID
+* [Get all sightings](./sightings-get.md)
+* [Get a sighting by ID](./sightings-get.md)
 
 ### `POST`
 
-* Create a user
+* [Add a new sighting](./sightings-post.md)
 
 ### `PUT`
 
-* Update an existing user's information
+* [Update an existing sighting's information](./sightings-put.md)
 
 ### `DELETE`
 
-* Delete a user
+* [Delete a sighting](./sightings-delete.md)
