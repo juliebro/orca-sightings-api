@@ -8,6 +8,8 @@ Also see [`/sightings` resource](../sightings-resource/sightings-resource.md).
 
 `{base_url}/users`
 
+Also see [Base URL](../base-url.md).
+
 ## Resource properties
 
 This code block shows an example of a full `/users` resource:
