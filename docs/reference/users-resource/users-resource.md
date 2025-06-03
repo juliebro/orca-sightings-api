@@ -1,10 +1,8 @@
 # `/users` resource
 
-The `/users` resource does (info to come).
+The `/users` resource lets you add a new user, update an existing user, list all users, list a user by its ID, or delete an existing user by its ID.
 
-Also see:
-
-* *Info to come.*
+Also see [`/sightings` resource](../sightings-resource/sightings-resource.md).
 
 ## Resource properties
 
@@ -26,25 +24,23 @@ This table describes all of the fields available in the `/users` resource:
 | `last_name`  | `string`  | The user's last name.                                        | `"Marsh"`                |
 | `first_name` | `string`  | The user's first name.                                       | `"Stan"`                 |
 | `email`      | `string`  | The user's email address. Must be unique.                    | `"stan.marsh@gmail.com"` |
-| `id`         | `integer` | Unique identifier for the user. Read-only, automatically generated. | `1`                      |
+| `id`         | `integer` | Unique identifier for the user. Read-only, automatically generated. | `1`               |
 
 ## Actions by method
 
-*(This section will link to the relevant reference topics.)*
-
 ### `GET`
 
-* Get all sightings
-* Get a sighting by ID
+* [Get all users](./users-get.md)
+* [Get an existing user by ID](./users-get.md)
 
 ### `POST`
 
-* Create a new sighting
+* [Create a new user](./users-post.md)
 
 ### `PUT`
 
-* Update an existing sighting's information
+* [Update an existing user's information](./users-put.md)
 
 ### `DELETE`
 
-* Delete a sighting
+* [Delete a user by ID](./users-delete.md)
