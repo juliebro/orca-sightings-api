@@ -4,6 +4,10 @@ The `/users` resource lets you add a new user, update an existing user, list all
 
 Also see [`/sightings` resource](../sightings-resource/sightings-resource.md).
 
+## Endpoint
+
+`{base_url}/users`
+
 ## Resource properties
 
 This code block shows an example of a full `/users` resource:
@@ -19,7 +23,7 @@ This code block shows an example of a full `/users` resource:
 
 This table describes all of the fields available in the `/users` resource:
 
-| Field        | Type      | Description                                                  | Example                  |
+| Property     | Type      | Description                                                  | Example                  |
 | ------------ | --------- | ------------------------------------------------------------ | ------------------------ |
 | `last_name`  | `string`  | The user's last name.                                        | `"Marsh"`                |
 | `first_name` | `string`  | The user's first name.                                       | `"Stan"`                 |
