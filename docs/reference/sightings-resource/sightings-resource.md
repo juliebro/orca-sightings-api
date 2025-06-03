@@ -4,6 +4,10 @@ The `/sightings` resource lets you add a new orca whale sighting, update an exis
 
 Also see the [`/users` resource](../users-resource/users-resource.md).
 
+## Endpoint
+
+`{base_url}/sightings`
+
 ## Resource properties
 
 This code block shows an example of a full `/sightings` resource:
@@ -20,7 +24,7 @@ This code block shows an example of a full `/sightings` resource:
 
 This table describes all of the fields available in the `/sightings` resource:
 
-| Field      | Type      | Description                                                  | Example                        |
+| Property   | Type      | Description                                                  | Example                        |
 | ---------- | --------- | ------------------------------------------------------------ | ------------------------------ |
 | `id`       | `integer` | Unique identifier for the sighting. Read-only and automatically generated. | `1`                            |
 | `user_id`  | `integer` | The ID of the user who reported the sighting, as described in the [`/users` resource](../users-resource/users-resource.md). | `1`                            |
