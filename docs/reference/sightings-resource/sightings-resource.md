@@ -49,6 +49,10 @@ This table describes all of the fields available in the `/sightings` resource:
 
 * [Update an existing sighting's information](./sightings-put.md)
 
+### `PATCH`
+
+* [Update part of an existing sighting's information](./sightings-patch.md)
+
 ### `DELETE`
 
 * [Delete a sighting](./sightings-delete.md)
