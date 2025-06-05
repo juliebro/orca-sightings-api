@@ -47,6 +47,10 @@ This table describes all of the fields available in the `/users` resource:
 
 * [Update an existing user's information](./users-put.md)
 
+### `PATCH`
+
+* [Update part of an existing user's information](./users-patch.md)
+
 ### `DELETE`
 
 * [Delete a user by ID](./users-delete.md)
