@@ -12,7 +12,7 @@ This is a RESTful API service with `/users` and `/sightings` resources. Each res
 
 * Create new users and sightings
 * Find all or some of the users and sightings
-* Update existing users and sightings
+* Update all or part of existing users and sightings
 * Remove users and sightings
 
 ## Next steps
