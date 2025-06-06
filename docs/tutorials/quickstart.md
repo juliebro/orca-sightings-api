@@ -1,5 +1,7 @@
 ---
 layout: default
+title: getting started
+parent: overview
 nav_order: 2
 ---
 
