@@ -1,6 +1,7 @@
 ---
 layout: default
-nav_order: 3
+parent: users-resource.md
+nav_order: 1
 ---
 
 # POST: add a new user
