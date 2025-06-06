@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_order: 4
+title: users resource
+parent: api reference
+nav_order: 1
 ---
 
 # `/users` resource
