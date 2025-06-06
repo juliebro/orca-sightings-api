@@ -1,4 +1,4 @@
-# `PATCH /sightings`: update part of an existing setting
+# `PATCH /sightings`: update part of an existing sighting
 
 Updates part of an existing sighting.
 
