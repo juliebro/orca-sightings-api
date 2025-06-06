@@ -1,7 +1,6 @@
 ---
 layout: default
-parent: users-resource.md
-nav_order: 1
+nav_order: 6
 ---
 
 # GET: show all users or a user by ID
