@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 1
+---
+
 # San Juan Islands Orca Sightings service
 
 This cloud-based service tracks the movements of orca pods around the San Juan Islands in the Salish Sea. Orcas are also known as killer whales.
