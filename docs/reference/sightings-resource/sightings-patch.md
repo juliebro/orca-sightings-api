@@ -1,6 +1,6 @@
 # `PATCH /sightings`: update part of an existing setting
 
-Update part of an existing sighting.
+Updates part of an existing sighting.
 
 Also see:
 
@@ -8,7 +8,7 @@ Also see:
 
 ## Method
 
-`POST`
+`PATCH`
 
 ## URL
 
@@ -28,7 +28,7 @@ Also see:
 
 ## Request body
 
-Shows an example of some key-value pairs you could use to update an existing sighting.
+Shows an example of some key-value pairs you could use to update part of an existing sighting.
 
 ```json
 info to come
@@ -36,7 +36,7 @@ info to come
 
 ## Return body
 
-Returns the new sighting entry.
+Returns the revised sighting entry.
 
 ```json
 info to come
