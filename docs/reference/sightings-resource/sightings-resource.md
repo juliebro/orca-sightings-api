@@ -1,5 +1,7 @@
 ---
 layout: default
+title: sightings resource
+parent: api reference
 nav_order: 2
 ---
 
