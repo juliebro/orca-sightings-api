@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_order: 3
+title: sightings get
+parent: sightings resource
+nav_order: 1
 ---
 
 # `GET /sightings`: list all sightings or a sighting by ID
