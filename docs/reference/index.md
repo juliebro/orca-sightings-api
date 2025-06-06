@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 2
+---
+
 # API reference
 
 The following topics provide a reference for each item:

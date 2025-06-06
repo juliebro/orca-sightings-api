@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 3
+---
+
 # `GET /sightings`: list all sightings or a sighting by ID
 
 Lists all sightings or a sighting by ID. 

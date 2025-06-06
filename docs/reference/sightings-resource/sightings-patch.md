@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 3
+---
+
 # `PATCH /sightings`: update part of an existing sighting
 
 Updates part of an existing sighting.

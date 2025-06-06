@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 3
+---
+
 # `PUT /sightings` update a sighting
 
 Updates an existing sighting.

@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 3
+---
+
 # `POST /sightings`: add a new sighting
 
 Adds a new sighting.

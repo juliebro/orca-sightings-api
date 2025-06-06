@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 2
+---
+
 # `/users` resource
 
 The `/users` resource lets you add a new user, update an existing user, list all users, list a user by its ID, or delete an existing user by its ID.

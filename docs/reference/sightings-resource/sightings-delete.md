@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 3
+---
+
 # `DELETE /sightings` delete a sighting
 
 Deletes an existing sighting entry. Requires the sighting ID.

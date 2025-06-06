@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 2
+---
+
 # Base URL
 
 The base URL of the service is typically `https://localhost:3000` .

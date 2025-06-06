@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 2
+---
+
 # `/sightings` resource
 
 The `/sightings` resource lets you add a new orca whale sighting, update an existing sighting by its ID, list all sightings, list a sighting by its ID, or delete an existing sighting by its ID.

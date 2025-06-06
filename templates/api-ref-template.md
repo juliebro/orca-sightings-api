@@ -1,6 +1,9 @@
+---
+layout: default
+nav_order: 3
+---
+
 # Add a task `POST /tasks`
-
-
 
 Adds a new task.
 

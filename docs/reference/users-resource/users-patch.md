@@ -1,3 +1,8 @@
+---
+layout: default
+nav_order: 3
+---
+
 # `PATCH /users`: Update some of the details about a user
 
 Updates some of the details about a user.
