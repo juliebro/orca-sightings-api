@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_order: 3
+title: sightings patch
+parent: sightings resource
+nav_order: 4
 ---
 
 # `PATCH /sightings`: update part of an existing sighting
