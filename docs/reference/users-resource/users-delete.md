@@ -1,7 +1,8 @@
 ---
 layout: default
-parent: users-resource.md
-nav_order: 1
+title: users delete
+parent: users resource
+nav_order: 5
 ---
 
 # DELETE: remove a user
