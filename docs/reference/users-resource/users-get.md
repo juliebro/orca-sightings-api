@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_order: 6
+title: users get
+parent: users resource
+nav_order: 1
 ---
 
 # GET: show all users or a user by ID
