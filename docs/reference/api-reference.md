@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_order: 2
+title: api reference
+parent: overview
+nav_order: 4
 ---
 
 # API reference
