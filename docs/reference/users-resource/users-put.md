@@ -1,7 +1,8 @@
 ---
 layout: default
-parent: users-resource.md
-nav_order: 1
+title: users put
+parent: users resource
+nav_order: 3
 ---
 
 # PUT: update a user
