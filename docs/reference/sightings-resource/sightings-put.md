@@ -1,5 +1,7 @@
 ---
 layout: default
+title: sightings put
+parent: sightings resource
 nav_order: 3
 ---
 
