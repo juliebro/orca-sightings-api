@@ -1,6 +1,7 @@
 ---
 layout: default
-nav_order: 1
+title: tutorial
+nav_exclude: true
 ---
 
 # Orca Sightings API tutorial placeholder
