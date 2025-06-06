@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_order: 3
+title: sightings delete
+parent: sightings resource
+nav_order: 5
 ---
 
 # `DELETE /sightings` delete a sighting
