@@ -1,7 +1,8 @@
 ---
 layout: default
-parent: users-resource.md
-nav_order: 1
+title: users patch
+parent: users resource
+nav_order: 4
 ---
 
 # `PATCH /users`: Update some of the details about a user
