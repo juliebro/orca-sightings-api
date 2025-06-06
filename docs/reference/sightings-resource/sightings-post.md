@@ -1,6 +1,8 @@
 ---
 layout: default
-nav_order: 3
+title: sightings post
+parent: sightings resource
+nav_order: 2
 ---
 
 # `POST /sightings`: add a new sighting
