@@ -33,6 +33,5 @@ This is a RESTful API service with `/users` and `/sightings` resources. Each res
 
 Also see:
 
-* [How to](./how-tos/placeholder-howtos.md)
-* [Tutorials](./tutorials/tutorial.md)
+* [Tutorials](./tutorials/tutorials.md)
 * [API reference](./reference/api-reference.md)
