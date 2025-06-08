@@ -35,4 +35,4 @@ Also see:
 
 * [How to](./how-tos/placeholder-howtos.md)
 * [Tutorials](./tutorials/tutorial.md)
-* [API reference](./reference/index.md)
+* [API reference](./reference/api-reference.md)

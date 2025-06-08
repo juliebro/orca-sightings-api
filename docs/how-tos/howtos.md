@@ -1,7 +1,7 @@
 ---
 layout: default
-title: how tos
-parent: overview
+title: How to
+parent: Overview
 nav_order: 3
 ---
 

@@ -37,7 +37,7 @@ Also see:
 
 Shows an example of some key-value pairs you could use to update an existing user.
 
-⚠️  If you don't include the full data in your request, the server creates the user again with no data in that field. Likewise, if you don't include any data in your request, the server creates an empty user with the same ID entered in the POST URL.
+⚠️  If you don't include the full data in your request, the server creates the user again with no data in that field. Likewise, if you don't include any data in your request, the server creates an empty user with the existing ID.
 
 ```
 {

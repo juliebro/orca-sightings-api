@@ -5,14 +5,13 @@ parent: Sightings resource
 nav_order: 5
 ---
 
-# `DELETE /sightings` delete a sighting
+# `DELETE /sightings` delete a sighting by ID
 
-Deletes an existing sighting entry. Requires the sighting ID.
+Delete a sighting by its ID.
 
 Also see:
 
-* Get sightings
-* Info to come
+* [Get all sightings or a sighting by ID](./sightings-get.md)
 
 ## Method
 
@@ -24,9 +23,7 @@ Also see:
 
 ## Properties
 
-`id` 
-
-*Anything else?*
+None.
 
 ## Headers
 
@@ -34,23 +31,22 @@ Also see:
 
 ## Request body
 
-Shows an example of some key-value pairs you could use to delete a sighting.
-
-```json
-info to come
-```
+None.
 
 ## Return body
 
-Returns the information from the request body plus a unique ID for the task.
+Deletes the sighting specified.
+
+📒 If you don't specify a sighting ID, all the sightings won't be deleted. Instead, the service returns a 404 Not Found error message. 
 
 ```json
-info to come
+{}
 ```
 
 ## Return status
 
-| Status value | Return status | Description |
-| ------------ | ------------- | ----------- |
-| ?            | Deleted       | ?           |
-| 400?         | Bad Request   | ?           |
+| Status value | Return status | Description                                               |
+| ------------ | ------------- | --------------------------------------------------------- |
+| 200          | OK            | Request successful. The server has responded as required. |
+| 404          | Not Found     | Requested resource could not be found.                    |
+

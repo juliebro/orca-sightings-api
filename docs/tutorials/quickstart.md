@@ -1,7 +1,7 @@
 ---
 layout: default
-title: getting started
-parent: overview
+title: Getting Started
+parent: Overview
 nav_order: 2
 ---
 

@@ -5,7 +5,7 @@ parent: Users resource
 nav_order: 5
 ---
 
-# `DELETE /users`: delete all users or a user by ID
+# `DELETE /users`: delete a user by ID
 
 Delete a user by ID.
 
@@ -23,9 +23,7 @@ Also see:
 
 ## Properties
 
-`id` - the ID of a particular user to delete
-
-For a description of all properties, see [`/users` resource](./users-resource.md).
+None.
 
 ## Headers
 

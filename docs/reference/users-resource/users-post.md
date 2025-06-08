@@ -12,7 +12,6 @@ Creates a new user account for an orca whale watching enthusiast.
 Also see:
 
 * [Get user by id](./users-get.md)
-* [Add a new sighting](../sightings-resource/sightings-post.md)
 
 ## Method
 
@@ -20,7 +19,7 @@ Also see:
 
 ## URL
 
-`{base_url}/users/`
+`{base_url}/users`
 
 Also see:
 
@@ -38,7 +37,7 @@ For a description of these properties, see [`/users` resource](./users-resource.
 
 ## Request body
 
-This is an example of some key-value pairs you could use to update an existing user.
+This is an example of some key-value pairs you could use to add a new user.
 
 ```json
 {
@@ -52,7 +51,7 @@ This is an example of some key-value pairs you could use to update an existing u
 
 ## Return body
 
-Returns the information from the request body.
+Returns the information from the request body plus a unique ID.
 
 ```json
 {

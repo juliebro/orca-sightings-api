@@ -7,13 +7,11 @@ nav_order: 1
 
 # `GET /sightings`: list all sightings or a sighting by ID
 
-Lists all sightings or a sighting by ID. 
-
-*This info repeats the title. Leave one or the other out?*
+Lists all sightings of orca whales reported in the service or a sighting by ID.
 
 Also see:
 
-* *Info to come*
+* [Add a sighting](./sightings-post.md)
 
 ## Method
 
@@ -21,13 +19,15 @@ Also see:
 
 ## URL
 
-`{base_url}/sightings/{id}`
+`{base_url}/sightings`  - shows all existing sightings in the service
+
+`{base_url}/sightings/{id}` - shows a specific sighting
 
 ## Properties
 
-`id` 
+`id` - the ID of a particular sighting to show
 
-*Anything else?*
+For a description of all sightings, see [`/sightings` resource](./sightings-resource.md).
 
 ## Headers
 
@@ -35,29 +35,77 @@ Also see:
 
 ## Request body
 
-Shows an example of some key-value pairs you could use to list all sightings.
-
-```json
-info to come
-```
-
-Shows an example of some key-value pairs you could use to list a sighting by id.
-
-```json
-info to come
-```
+None.
 
 ## Return body
 
-Returns a list of all the sightings or a sighting by ID.
+Returns all sightings or the specific sighting requested. The following example shows the result of requesting all sightings.
 
 ```json
-info to come
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "pod": "J-pod",
+        "time": "2025-05-03T10:00",
+        "location": "Lime Kiln Point State Park"
+    },
+    {
+        "id": 2,
+        "user_id": 3,
+        "pod": "T49A",
+        "time": "2025-05-01T19:00",
+        "location": "Patos Island"
+    },
+    {
+        "id": 3,
+        "user_id": 4,
+        "pod": "unknown",
+        "time": "2025-04-28T12:30",
+        "location": "Shaw Island"
+    },
+    {
+        "id": 4,
+        "user_id": 3,
+        "pod": "K-pod",
+        "time": "2025-02-15T10:00",
+        "location": "Lime Kiln Point State Park"
+    },
+    {
+        "id": 5,
+        "user_id": 2,
+        "pod": "J-pod",
+        "time": "2025-01-20T13:00",
+        "location": "Lime Kiln Point State Park"
+    },
+    {
+        "id": 6,
+        "user_id": 1,
+        "pod": "K-pod",
+        "time": "2024-12-24T17:15",
+        "location": "Friday Harbor"
+    },
+    {
+        "id": 7,
+        "user_id": 4,
+        "pod": "T49A",
+        "time": "2025-12-13T06:00",
+        "location": "Reuben Tarte County Park"
+    },
+    {
+        "id": 8,
+        "user_id": 2,
+        "pod": "T49A",
+        "time": "2025-01-30T11:00",
+        "location": "Lime Kiln Point State Park"
+    }
+]
 ```
 
 ## Return status
 
-| Status value | Return status | Description |
-| ------------ | ------------- | ----------- |
-| ?            | ?             | ?           |
-| 400?         | Bad request   | ?           |
+| Status value | Return status | Description                                               |
+| ------------ | ------------- | --------------------------------------------------------- |
+| 200          | OK            | Request successful. The server has responded as required. |
+| 404          | Not Found     | Requested resource could not be found.                    |
+

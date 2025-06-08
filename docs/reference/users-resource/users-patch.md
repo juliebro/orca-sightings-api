@@ -45,7 +45,7 @@ Shows an example of some key-value pairs you could use to update some data for a
 
 ## Return body
 
-Returns the new user entry.
+Returns the updated user entry.
 
 ```json
 {
