@@ -1,8 +1,8 @@
 ---
 layout: default
 title: ISO 8601 format
-parent: Overview
-nav_order: 5
+parent: API reference
+nav_order: 4
 ---
 
 # What is ISO 8601 format?

@@ -2,7 +2,7 @@
 layout: default
 title: Users resource
 parent: API reference
-nav_order: 1
+nav_order: 2
 ---
 
 # `/users` resource
@@ -27,7 +27,7 @@ This code block shows an example of a full `/users` resource:
     "first_name": "Stan",
     "email": "stan.marsh@gmail.com",
     "id": 1
-},
+}
 ```
 
 This table describes all of the fields available in the `/users` resource:

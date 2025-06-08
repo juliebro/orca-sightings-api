@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Base URL
-parent: Overview
+parent: API reference
 nav_order: 1
 ---
 
