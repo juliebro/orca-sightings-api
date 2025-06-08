@@ -1,7 +1,7 @@
 ---
 layout: default
-title: base url
-parent: overview
+title: Base URL
+parent: Overview
 nav_order: 1
 ---
 

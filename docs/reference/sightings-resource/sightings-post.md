@@ -1,7 +1,7 @@
 ---
 layout: default
-title: sightings post
-parent: sightings resource
+title: POST sightings
+parent: Sightings resource
 nav_order: 2
 ---
 

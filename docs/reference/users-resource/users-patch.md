@@ -1,7 +1,7 @@
 ---
 layout: default
-title: users patch
-parent: users resource
+title: PATCH users
+parent: Users resource
 nav_order: 4
 ---
 
@@ -11,7 +11,9 @@ Updates some of the details about a user.
 
 Also see:
 
-* *Info to come*
+* [List all users](./users-get.md)
+* [Get user by id](./users-get.md)
+* [Patch sighting by id](../sightings-resource/sightings-patch.md)
 
 ## Method
 
@@ -23,11 +25,9 @@ Also see:
 
 ## Properties
 
-`id`: The ID of the user to be updated
+`id` - the ID of the user to be updated
 
-Also see:
-
-* [List all users](./users-get.md)
+For a description of all properties, see [`/users` resource](./users-resource.md).
 
 ## Headers
 
@@ -38,7 +38,9 @@ Also see:
 Shows an example of some key-value pairs you could use to update some data for a user.
 
 ```json
-info to come
+{
+    "first_name": "Benjamin"
+}
 ```
 
 ## Return body
@@ -46,13 +48,18 @@ info to come
 Returns the new user entry.
 
 ```json
-info to come
+{
+    "last_name": "Waters",
+    "first_name": "Benjamin",
+    "email": "ben.waters@gmail.com",
+    "id": 6
+}
 ```
 
 ## Return status
 
-| Status value | Return status | Description |
-| ------------ | ------------- | ----------- |
-| ?            | ?             | ?           |
-| 400?         | Bad request   | ?           |
+| Status value | Return status | Description                                               |
+| ------------ | ------------- | --------------------------------------------------------- |
+| 200          | OK            | Request successful. The server has responded as required. |
+| 404          | Not Found     | Requested resource could not be found.                    |
 

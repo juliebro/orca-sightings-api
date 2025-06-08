@@ -1,7 +1,7 @@
 ---
 layout: default
-title: sightings delete
-parent: sightings resource
+title: DELETE sightings
+parent: Sightings resource
 nav_order: 5
 ---
 

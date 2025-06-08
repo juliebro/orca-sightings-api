@@ -8,7 +8,7 @@ Using this service, orca enthusiasts can report the location and time of their s
 
 ## Features of the Orca Sightings service
 
-This is a RESTful API service with `/users` and `/sightings` resources. Each resource allows the typical GET, POST, PUT, and DELETE actions, allowing you to include the following actions in your app:
+This is a RESTful API service with `/users` and `/sightings` resources. Each resource allows the typical GET, POST, PUT, PATCH, and DELETE actions, allowing you to include the following actions in your app:
 
 * Create new users and sightings
 * Find all or some of the users and sightings

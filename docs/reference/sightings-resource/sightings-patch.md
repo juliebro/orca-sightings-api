@@ -1,7 +1,7 @@
 ---
 layout: default
-title: sightings patch
-parent: sightings resource
+title: PATCH sightings
+parent: Sightings resource
 nav_order: 4
 ---
 

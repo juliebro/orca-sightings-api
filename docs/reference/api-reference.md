@@ -1,7 +1,7 @@
 ---
 layout: default
-title: api reference
-parent: overview
+title: API reference
+parent: Overview
 nav_order: 4
 ---
 

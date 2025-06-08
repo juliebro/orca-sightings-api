@@ -1,7 +1,7 @@
 ---
 layout: default
-title: iso format
-parent: overview
+title: ISO 8601 format
+parent: Overview
 nav_order: 5
 ---
 

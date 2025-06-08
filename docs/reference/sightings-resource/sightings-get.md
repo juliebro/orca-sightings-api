@@ -1,7 +1,7 @@
 ---
 layout: default
-title: sightings get
-parent: sightings resource
+title: GET sightings
+parent: Sightings resource
 nav_order: 1
 ---
 
