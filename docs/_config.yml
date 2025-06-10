@@ -1,7 +1,6 @@
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
 nav_enabled: true
-
 # This file configures how the docs are built.
 #
 #   The properties below are annotated for users who want to
@@ -112,7 +111,7 @@ back_to_top_text: "Back to top"
 
 #
 #   !!! CHANGE THIS VALUE TO APPLY TO YOUR DOCUMENTATION
-footer_content: "Copyright &copy; 2025 Julie Brodeur."
+footer_content: "Copyright &copy; 2025 Julie Brodeur (tech writer) and Jeff Naemura (subject matter expert)."
 
 # - - - - - - - - - - - - - - - - 
 #
@@ -157,5 +156,4 @@ footer_content: "Copyright &copy; 2025 Julie Brodeur."
 #       Specifies whether to display the default ToC of child topics or not.
 #       A value of false supresses the default ToC.    
 #       See also https://just-the-docs.com/docs/navigation/children/
-#
 #
