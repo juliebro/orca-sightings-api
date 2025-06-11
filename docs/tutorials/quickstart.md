@@ -19,11 +19,15 @@ The files are located in the [orca-sightings-api repo on GitHub](https://github.
 
 ## Step 2: Start JSON Server
 
-*Info to come*
+In a terminal window from the directory where you installed JSON Server, run:
+
+```console
+json-server -w orca-sightings-db.json
+```
 
 ## Step 3: Use cURL or Postman to submit a request
 
-```json
+```curl
 cURL data here
 ```
 

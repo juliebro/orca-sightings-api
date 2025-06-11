@@ -13,84 +13,99 @@ nav_order: 1
 
 Before you begin using the Orca Sightings service, you must set up your development environment.
 
-Expect this to take about 20 minutes to complete.
+Expect this to take about 30 minutes to complete.
 
-## Step 1: Create a GitHub user account
-
-You’ll need a GitHub account. If you don’t already have one, create one at [GitHub](https://github.com/).
-
-## Step 2: Install the required software
+## Step 1: Install the required software
 
 Install the following software on your desktop, which should run a recent version of Windows, macOS, or Linux.
 
-- **[GitHub Desktop](https://github.com/apps/desktop)**
-- A recent version of **[node.js](https://nodejs.org/en)**
-- A recent version of **[json-server](https://www.npmjs.com/package/json-server)**
-- A current copy of the **database file** and the relevant **startup script**. You can get these by syncing your fork. They’re located in the `/api` directory.
-- The [**Postman desktop app**](https://www.postman.com/downloads/). You’ll run the Orca Sightings service on your development system with an `http://localhost` host name, so the web version of Postman won’t work.
+- A recent version of **[node.js](https://nodejs.org/en)**.
+- A recent version of **[json-server](https://www.npmjs.com/package/json-server)**.
+- The [**Postman desktop app**](https://www.postman.com/downloads/). You’ll run the Orca Sightings service on your local development system, so the web version of Postman won’t work. The default port for localhost is 3000: `http://localhost:3000/`
 
-## Step 3: Fork the repository
+## Step 2: Download the relevant files from GitHub
 
-1. Go to https://github.com/juliebro/orca-sightings-api.
-2. Click the **Fork** button on the right side of the page, near the top.
+Download a current copy of the **database file** and the relevant **startup script**. You can [download these from the Orca Sightings service repository on GitHub](https://github.com/juliebro/orca-sightings-api/tree/main/api).
 
-## Step 4: Clone the repository
+To download each file:
 
-Using GitHub Desktop, clone a repository to the workspace on your desktop.
+1. Hover over a file name and click the link that appears.
+1. On the upper right side of the panel, click the download button (a down arrow).
+1. Do this for the `orca-sightings-db.json` file and one of the startup scripts: `orca-sightings.sh` for macOS and Linux or  `start-server.bat` for Windows.
 
-1. Go to **File** > **Clone Repository**.
-2. Select the **URL** tab.
-3. Enter the URL for the Orca Sightings API: `https://github.com/juliebro/orca-sightings-api`
-4. Click **Clone**.
+> [! NOTE]
+> This is a note.
 
-## !! **Test your development system**
+> [! WARNING]
+> This is a warning.
 
-To test your development system:.
 
-1. Create and check out a test branch of your fork of the Orca Sightings repository. In the below example, `<path to orca-sightings-api repo>` is where you cloned the **orca-sightings-api** repository to.
+## Step 3: Run JSON Server with the `orca-sightings-db.json` file
 
-   ```text
-   cd <path to orca-sightings-api repo>
-   ls
-   # (see the to-do-service directory in the list)
-   cd to-do-service-sp25
-   git checkout -b tutorial-test
-   cd api
-   json-server -w to-do-db-source.json
+1. Go to the directory on your computer where you downloaded `orca-sightings-db.json` and the relevant start script.
+
+2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open a terminal window, `cd` to the directory where you downloaded the files, and type `./orca-sightings.sh`. That runs the script in the current directory. If that doesn't work, type `json-server orca-sightings-db.json`. You should see some text like this to indicate the service is running:
+
+   ```shell
+   user@macbookair ~ % json-server orca-sightings-db.json
+   
+     \{^_^}/ hi!
+   
+     Loading orca-sightings-db.json
+     Done
+   
+     Resources
+     http://localhost:3000/users
+     http://localhost:3000/sightings
+   
+     Home
+     http://localhost:3000
    ```
 
-   If you installed the software correctly, you should see the service start and display the URL of the service: `http://localhost:3000`.
+   ## Step 4: Make a test call to the service
 
-2. Make a test call to the service.
+   1. Open Postman.
+   2. At the top of the right pane, select **GET**.
+   3. Next to **GET**, type `http://localhost:3000/users`.
 
-   ```
-   curl <http://localhost:3000/users>
-   ```
+   If the service is running correctly, you should see a list of all existing users. 
 
-3. If the service is running correctly, you should see a list of users from the service, such as in this example.
-
-   ```
+   ```json
    [
        {
-           "last_name": "Smith",
-           "first_name": "Ferdinand",
-           "email": "f.smith@example.com",
+           "last_name": "Marsh",
+           "first_name": "Stan",
+           "email": "stan.marsh@gmail.com",
            "id": 1
        },
        {
-           "last_name": "Jones",
-           "first_name": "Jill",
-           "email": "j.jones@example.com",
+           "last_name": "Broflovski",
+           "first_name": "Kyle",
+           "email": "kyle.broflovski@yahoo.com",
            "id": 2
        },
-       ...
+       {
+           "last_name": "Cartman",
+           "first_name": "Eric",
+           "email": "eric.cartman@hotmail.com",
+           "id": 3
+       },
+       {
+           "last_name": "McCormick",
+           "first_name": "Kenny",
+           "email": "kenny.mccormick@gmail.com",
+           "id": 4
+       }
+   ]
    ```
 
-You should see the list of users. If you receive an error in any step of the procedure, investigate, and correct the error before continuing. Some common situations that cause errors include:
+## Troubleshooting
 
-1. You mistyped a command.
-2. You aren't in the correct directory.
-3. A required software component didn't install correctly.
-4. A required software component isn't up to date.
+If you receive an error in any step of the procedure, investigate and correct the error before continuing. Some common situations that cause errors include:
 
-If you see the list of users from the service, you're ready to do the [Tutorials](https://github.com/UWC2-APIDOC/to-do-service-sp25/blob/main/docs/tutorials.md).
+- You mistyped a command.
+- You aren't in the correct directory.
+- A required software component didn't install correctly.
+- A required software component isn't up to date.
+
+If you see the list of users from the service, you're ready to start the [Tutorials](./tutorials/tutorials.md).
