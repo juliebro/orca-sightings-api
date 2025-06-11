@@ -10,11 +10,10 @@ This cloud-based service tracks the movements of orca pods around the San Juan I
 
 Using this service, orca enthusiasts can report the location and time of their sightings off the coast of any of the San Juan Islands, making it easy for others to sight these whales from land so they don't have to charter a boat. As a developer, you can include this service in your app.
 
-**Next steps:** [Set up your development environment](./tutorials/set-up-dev-env.md) and [get started with a tutorial](./tutorials/quickstart.md) about how to list all sightings in the service.
+To get started, learn how to [set up your development environment](./tutorials/set-up-dev-env.md) and [list all sightings](./tutorials/quickstart.md) in the service, or scroll down to learn more about the [user community](#user-community)
+and [features](#features).
 
-| **On this page:** | [User community](#user-community) | [Features](#features) |
-
-❗ This is a simulated REST interface only for the demonstration of API documentation.
+❗️ This is a simulated REST interface only for the demonstration of API documentation.
 
 ![ Photo of Orca whales](https://images.unsplash.com/photo-1602264836619-094873fa05fc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JjYSUyMHdoYWxlfGVufDB8fDB8fHww)
 
@@ -27,8 +26,8 @@ The orca whale watching community is niche but active. It includes a variety of 
 The Orca Sightings service is a RESTful API designed to support this community. It offers two main resources: `/users` and `/sightings`. Each resource supports standard HTTP methods (GET, POST, PUT, PATCH, and DELETE), so your application can perform the following actions:
 
 - [Create new user profiles](./tutorials/add-new-user.md) and [log new orca sightings](./tutorials/add-new-sighting.md).
-- Retrieve all or specific user and sighting records.
-- Update existing user information and sighting details.
-- Delete user accounts and sighting entries.
+- [Retrieve all or specific user](./tutorials/get-user.md) and [sighting records](./tutorials/get-sighting.md).
+- [Update existing user information](./tutorials/update-user.md) and [sighting details](./tutorials/update-sighting.md).
+- [Delete user accounts](./tutorials/delete-user.md) and [sighting entries](./tutorials/delete-sighting.md).
 
-🚧 *This section will include links to the relevant tutorials for each action in the bulleted list above.*
+🚧 *This section will include links to the relevant tutorials for each action in the bulleted list above. Most of the links don't work now.*
