@@ -4,8 +4,6 @@ title: Overview
 nav_order: 1
 ---
 
-{:toc}
-
 # San Juan Islands Orca Sightings service
 
 This cloud-based service tracks the movements of orca pods around the San Juan Islands in the Salish Sea. Orcas are also known as killer whales.
@@ -36,8 +34,3 @@ This is a RESTful API service with `/users` and `/sightings` resources. Each res
 ## Next steps
 
 [Download the API database file](https://github.com/juliebro/orca-sightings-api/tree/main/api) and [get started](./tutorials/quickstart.md) with a tutorial about how to list all sightings in the service.
-
-Also see:
-
-* [Tutorials](./tutorials/tutorials.md)
-* [API reference](./reference/api-reference.md)
