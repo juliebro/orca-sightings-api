@@ -5,5 +5,4 @@ parent: Overview
 nav_order: 1
 ---
 
-# Orca Sightings API tutorial placeholder
-
+# Tutorials about using the Orca Sightings service
