@@ -10,25 +10,25 @@ This cloud-based service tracks the movements of orca pods around the San Juan I
 
 Using this service, orca enthusiasts can report the location and time of their sightings off the coast of any of the San Juan Islands, making it easy for others to sight these whales from land so they don't have to charter a boat. As a developer, you can include this service in your app.
 
-**Next steps:** [Download the API database file](https://github.com/juliebro/orca-sightings-api/tree/main/api) and [get started](./tutorials/quickstart.md) with a tutorial about how to list all sightings in the service.
+**Next steps:** [Set up your development environment](./tutorials/set-up-dev-env.md) and [get started with a tutorial](./tutorials/quickstart.md) about how to list all sightings in the service.
 
-| **On this page:** | [User community](#user-community) | [Features of the Orca Sightings service](#features-of-the-orca-sightings-service) |
+| **On this page:** | [User community](#user-community) | [Features](#features) |
 
-> ❗ *This is a simulated REST interface only for the demonstration of API documentation.*
+❗ This is a simulated REST interface only for the demonstration of API documentation.
 
 ![ Photo of Orca whales](https://images.unsplash.com/photo-1602264836619-094873fa05fc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JjYSUyMHdoYWxlfGVufDB8fDB8fHww)
 
 ## User community
 
-The orca whale watching community is niche but active. It includes a variety of enthusiasts from around the world, and many seek the orca that frequent the San Juan Islands. Whale watchers can see orca pods swim near the land there year-round. Their large dorsal fins make them easier to spot from far away than other whales or dolphins.
+The orca whale watching community is niche but active. It includes a variety of enthusiasts from around the world, and many seek the orca that frequent the San Juan Islands. Whale watchers can see orca pods swim near the land there year-round. The orca whale's distinctive, large dorsal fin make it easier to spot from far away than other whales or dolphins.
 
-## Features of the Orca Sightings service
+## Features
 
-This is a RESTful API service with `/users` and `/sightings` resources. Each resource allows the typical GET, POST, PUT, PATCH, and DELETE methods, allowing you to include the following actions in your app:
+The Orca Sightings service is a RESTful API designed to support this community. It offers two main resources: `/users` and `/sightings`. Each resource supports standard HTTP methods (GET, POST, PUT, PATCH, and DELETE), so your application can perform the following actions:
 
-* Create new users and sightings
-* Find all or some of the users and sightings
-* Update the existing users and sightings
-* Remove users and sightings
+- [Create new user profiles](./tutorials/add-new-user.md) and [log new orca sightings](./tutorials/add-new-sighting.md).
+- Retrieve all or specific user and sighting records.
+- Update existing user information and sighting details.
+- Delete user accounts and sighting entries.
 
-> 🚧 *This section will include links to the relevant tutorials for each action in the bulleted list above.*
+🚧 *This section will include links to the relevant tutorials for each action in the bulleted list above.*

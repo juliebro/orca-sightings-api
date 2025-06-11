@@ -11,9 +11,10 @@ Updates some of the details about a user.
 
 Also see:
 
-* [List all users](./users-get.md)
-* [Get user by id](./users-get.md)
-* [Patch sighting by id](../sightings-resource/sightings-patch.md)
+* [Update all or part of a user entry: a tutorial](../../tutorials/update-user.md)
+* [GET: List all users](./users-get.md)
+* [GET: Get user by id](./users-get.md)
+* [PATCH: Update part of a sighting](../sightings-resource/sightings-patch.md)
 
 ## Method
 
