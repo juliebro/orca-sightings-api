@@ -33,13 +33,6 @@ To download each file:
 1. On the upper right side of the panel, click the download button (a down arrow).
 1. Do this for the `orca-sightings-db.json` file and one of the startup scripts: `orca-sightings.sh` for macOS and Linux or  `start-server.bat` for Windows.
 
-> [! NOTE]
-> This is a note.
-
-> [! WARNING]
-> This is a warning.
-
-
 ## Step 3: Run JSON Server with the `orca-sightings-db.json` file
 
 1. Go to the directory on your computer where you downloaded `orca-sightings-db.json` and the relevant start script.
