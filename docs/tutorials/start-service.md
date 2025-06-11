@@ -1,4 +1,11 @@
-## Start the Orca Sightings service
+---
+layout: default
+title: Start the service
+parent: Tutorials
+nav_order: 3
+---
+
+# Start the Orca Sightings service
 
 To start the Orca Sightings service:
 
