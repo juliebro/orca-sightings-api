@@ -18,15 +18,15 @@ To get started, learn how to [set up your development environment](./tutorials/s
 
 ## User community
 
-The orca whale watching community is niche but active. It includes a variety of enthusiasts from around the world, and many seek the orca that frequent the San Juan Islands. Whale watchers can see orca pods swim near the land there year-round. The orca whale's distinctive, large dorsal fin make it easier to spot from far away than other whales or dolphins.
+The orca whale watching community is niche but active. It includes a variety of enthusiasts from around the world, and many seek the orcas that frequent the San Juan Islands. Whale watchers can see orca pods swim near the land there year-round. The orca whale's distinctive, large dorsal fin makes it easier to spot from far away than other whales or dolphins.
 
 ## Features
 
-The Orca Sightings service is a RESTful API designed to support this community. It offers two main resources: `/users` and `/sightings`. Each resource supports standard HTTP methods (GET, POST, PUT, PATCH, and DELETE), so your application can perform the following actions:
+The Orca Sightings service is a RESTful API designed to support this community. It offers two main resources: `/users` and `/sightings`. Each resource supports standard HTTP methods, including GET, POST, PUT, PATCH, and DELETE, so your app can perform the following actions:
 
 - [Create new user profiles](./tutorials/add-user.md) and [log new orca sightings](./tutorials/add-new-sighting.md).
 - [Retrieve all or specific user](./tutorials/get-user.md) and [sighting records](./tutorials/get-sighting.md).
 - [Update existing user information](./tutorials/update-user.md) and [sighting details](./tutorials/update-sighting.md).
 - [Delete user accounts](./tutorials/delete-user.md) and [sighting entries](./tutorials/delete-sighting.md).
 
-> This section will include links to the relevant tutorials for each action in the bulleted list above. Most of the links don't work now.
+> *This section includes links to the relevant tutorials for each action in the preceeding bulleted list. Most of the links don't work now.*
