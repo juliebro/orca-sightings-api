@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Add a new user
+title: Add new user
 parent: Tutorials
 nav_order: 2
 ---

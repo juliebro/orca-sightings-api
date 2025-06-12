@@ -66,7 +66,7 @@ In this part of the tutorial, you'll replace the entire entry using the PUT meth
     ```json
     http://localhost:3000/users/4
     ```
-This indicates that you'll replace the information for the user that has an ID of 4. Remember that from step 2?
+    This indicates that you'll replace the information for the user that has an ID of 4. Remember that from step 2?
 
 5. If you don't already have the header designated, choose **Headers** and specify **Content-Type: application/json**. 
 
