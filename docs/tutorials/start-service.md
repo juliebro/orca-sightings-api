@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Get started by listing orca sightings
+title: Start the service
 parent: Tutorials
 nav_order: 3
 ---
 
 ## Start the Orca Sightings service
-
+# Start the Orca Sightings service
 To start the Orca Sightings service:
 
 1. Open a terminal window and `cd` to the location of the `json-server` application.
