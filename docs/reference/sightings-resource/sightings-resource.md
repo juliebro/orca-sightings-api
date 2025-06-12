@@ -5,6 +5,9 @@ parent: API reference
 nav_order: 3
 ---
 
+- TOC
+{:toc}
+
 # `/sightings` resource
 
 The `/sightings` resource lets you add a new orca whale sighting, update an existing sighting by its ID, list all sightings, list a sighting by its ID, or delete an existing sighting by its ID.

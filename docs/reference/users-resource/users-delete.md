@@ -5,6 +5,9 @@ parent: Users resource
 nav_order: 5
 ---
 
+- TOC
+{:toc}
+
 # `DELETE /users`: delete a user by ID
 
 Delete a user by ID.

@@ -5,6 +5,9 @@ parent: Sightings resource
 nav_order: 3
 ---
 
+- TOC
+{:toc}
+
 # `PUT /sightings` update a sighting
 
 Updates the entire sightings record for the specified id. The request body must contain the complete updated sighting information, including any fields that remain unchanged.

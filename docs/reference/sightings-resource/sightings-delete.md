@@ -5,13 +5,16 @@ parent: Sightings resource
 nav_order: 5
 ---
 
+- TOC
+{:toc}
+
 # `DELETE /sightings` delete a sighting by ID
 
 Delete a sighting by its ID.
 
 Also see:
 
-* [Get all sightings or a sighting by ID](./sightings-get.md)
+- [Get all sightings or a sighting by ID](./sightings-get.md)
 
 ## Method
 
@@ -21,9 +24,14 @@ Also see:
 
 `{base_url}/sightings/{id}`
 
+Also see:
+
+- [Base URL](../base-url.md)
+
 ## Properties
 
-None.
+The endpoint requires `id`, which is the unique id of the user you want to delete.
+
 
 ## Headers
 
@@ -37,7 +45,7 @@ None.
 
 Deletes the sighting specified.
 
-📒 If you don't specify a sighting ID, all the sightings won't be deleted. Instead, the service returns a 404 Not Found error message. 
+> If you don't specify a sighting ID, the service won't delete all the sightings. Instead, the it returns a `404 Not Found` error message.
 
 ```json
 {}
@@ -49,4 +57,3 @@ Deletes the sighting specified.
 | ------------ | ------------- | --------------------------------------------------------- |
 | 200          | OK            | Request successful. The server has responded as required. |
 | 404          | Not Found     | Requested resource could not be found.                    |
-

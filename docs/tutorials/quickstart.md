@@ -5,6 +5,9 @@ parent: Tutorials
 nav_order: 2
 ---
 
+- TOC
+{:toc}
+
 # Get started by listing orca sightings: a tutorial
 
 This tutorial shows you how to download the API files and try one of the service actions: viewing all of the orca sightings reported in the app for the San Juan Islands. If you've already [set up your development environment](set-up-dev-env.md), the process should take about 15 minutes.

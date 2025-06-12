@@ -5,6 +5,9 @@ parent: Users resource
 nav_order: 1
 ---
 
+- TOC
+{:toc}
+
 # `GET /users`: show all users or a user by ID
 
 Lists all users or a user by ID.

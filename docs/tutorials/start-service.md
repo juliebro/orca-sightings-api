@@ -5,13 +5,13 @@ parent: Tutorials
 nav_order: 3
 ---
 
-## Start the Orca Sightings service
 # Start the Orca Sightings service
+
 To start the Orca Sightings service:
 
-1. Open a terminal window and `cd` to the location of the `json-server` application.
+1. Open a terminal window and `cd` to the location of the `json-server` app.
 
-2. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to indicate it's running.
+2. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to show it's running.
 
    ```shell
    user@macbookair ~ % json-server orca-sightings-db.json
@@ -30,4 +30,3 @@ To start the Orca Sightings service:
    ```
 
 Also see [Tutorials](./tutorials.md).
-

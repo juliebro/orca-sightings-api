@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Set up your development environment
+title: Set up your dev environment
 parent: Tutorials
 nav_order: 1
 ---
+
+- TOC
+{:toc}
 
 # Set up your development environment: a tutorial
 

@@ -5,6 +5,9 @@ parent: Sightings resource
 nav_order: 4
 ---
 
+- TOC
+{:toc}
+
 # `PATCH /sightings`: update part of an existing sighting
 
 Updates some of the details about a sighting.

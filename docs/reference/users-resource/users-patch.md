@@ -5,6 +5,9 @@ parent: Users resource
 nav_order: 4
 ---
 
+- TOC
+{:toc}
+
 # `PATCH /users`: Update some of the details about a user
 
 Updates some of the details about a user.

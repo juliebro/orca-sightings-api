@@ -5,6 +5,9 @@ parent: Sightings resource
 nav_order: 2
 ---
 
+- TOC
+{:toc}
+
 # `POST /sightings`: add a new sighting
 
 Creates a new orca whale sighting.

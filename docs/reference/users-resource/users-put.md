@@ -5,6 +5,9 @@ parent: Users resource
 nav_order: 3
 ---
 
+- TOC
+{:toc}
+
 # `PUT /users`: update a user
 
 Updates the entire user record for the specified id. The request body must contain the complete updated user information, including any fields that remain unchanged.

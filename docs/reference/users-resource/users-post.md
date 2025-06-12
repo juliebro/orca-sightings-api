@@ -5,6 +5,9 @@ parent: Users resource
 nav_order: 2
 ---
 
+- TOC
+{:toc}
+
 # `POST /users`: add a new user
 
 Creates a new user account for an orca whale watching enthusiast.

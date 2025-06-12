@@ -5,29 +5,45 @@ parent: Sightings resource
 nav_order: 1
 ---
 
+- TOC
+{:toc}
+
 # `GET /sightings`: list all sightings or a sighting by ID
 
 Lists all sightings of orca whales reported in the service or a sighting by ID.
 
 Also see:
 
-* [Add a sighting](./sightings-post.md)
+- [Add a sighting](./sightings-post.md)
 
 ## Method
 
 `GET`
 
-## URL
+## Endpoint URL
 
-`{base_url}/sightings`  - shows all existing sightings in the service
+`{base_url}/sightings`: shows all existing sightings in the service
 
-`{base_url}/sightings/{id}` - shows a specific sighting
+`{base_url}/sightings/{id}`: shows a specific sighting
+
+Also see:
+
+- [Base URL](../base-url.md)
 
 ## Properties
 
-`id` - the ID of a particular sighting to show
+Provided at the endpoint URL:
 
-For a description of all sightings, see [`/sightings` resource](./sightings-resource.md).
+- `id`: the ID of a particular sighting to show.
+
+Returned:
+
+- `id`: the unique sighting ID
+- `user_id`: the ID of the user who reported the sighting
+- `pod`: the pod that the orca whale belongs to
+- `time`: the time the user reported seeing the whale
+
+For a full description of all `/sightings` properties, see [`/sightings` resource](./sightings-resource.md).
 
 ## Headers
 
@@ -108,4 +124,3 @@ Returns all sightings or the specific sighting requested. The following example 
 | ------------ | ------------- | --------------------------------------------------------- |
 | 200          | OK            | Request successful. The server has responded as required. |
 | 404          | Not Found     | Requested resource could not be found.                    |
-

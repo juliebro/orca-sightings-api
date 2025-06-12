@@ -5,6 +5,9 @@ parent: API reference
 nav_order: 2
 ---
 
+- TOC
+{:toc}
+
 # `/users` resource
 
 The `/users` resource lets you add a new user, update all or part of an existing user, list all users, list a user by its ID, or delete an existing user by its ID. Users represent the whale watching enthusiasts who report orca sightings.

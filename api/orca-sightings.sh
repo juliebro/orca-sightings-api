@@ -1,2 +1,2 @@
 #!/bin/bash
-json-server -w orca-sightings-db.json
+json-server orca-sightings-db.json

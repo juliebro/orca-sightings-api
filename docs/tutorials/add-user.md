@@ -5,7 +5,8 @@ parent: Tutorials
 nav_order: 2
 ---
 
-
+- TOC
+{:toc}
 
 # Add a new user to the Orca Sightings service: a tutorial
 
