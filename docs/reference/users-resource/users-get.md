@@ -10,11 +10,7 @@ nav_order: 1
 
 # `GET /users`: show all users or a user by ID
 
-Lists all users or a user by ID.
-
-Also see:
-
-* *Info to come*
+Retrieves a list of all users or a user by ID.
 
 ## Method
 
@@ -32,19 +28,25 @@ Also see:
 
 For a description of all properties, see [`/users` resource](./users-resource.md).
 
-## Headers
-
-`Content-Type: application/json`
-
 ## Request body
 
 None.
 
 ## Return body
 
-Returns all users or the specific user requested. The following example shows the result of requesting all users.
+Returns all users or the specific user requested.
 
-```json
+## Examples
+
+Retrieve all users with cURL:
+
+```shell
+curl -X GET http://localhost:3000/users
+```
+
+Response:
+
+``json
 [
     {
         "last_name": "Marsh",
@@ -73,10 +75,26 @@ Returns all users or the specific user requested. The following example shows th
 ]
 ```
 
+Retrieve the user with an `id` of `4` with cURL:
+
+```shell
+curl -X GET http://localhost:3000/users/4
+```
+
+Response:
+
+```json
+{
+    "last_name": "Cartman",
+    "first_name": "Eric M",
+    "email": "eric.m.cartman@hotmail.com",
+    "id": 4
+}
+```
+
 ## Return status
 
 | Status value | Return status | Description                                               |
 | ------------ | ------------- | --------------------------------------------------------- |
 | 200          | OK            | Request successful. The server has responded as required. |
 | 404          | Not Found     | Requested resource could not be found.                    |
-

@@ -14,7 +14,7 @@ Creates a new user account for an orca whale watching enthusiast.
 
 Also see:
 
-* [Get user by id](./users-get.md)
+- [Get user by id](./users-get.md)
 
 ## Method
 
@@ -38,36 +38,42 @@ You can use the following properties to add a new user to the service: `first_na
 
 For a description of these properties, see [`/users` resource](./users-resource.md).
 
-## Request body
+## Examples
 
-This is an example of some key-value pairs you could use to add a new user.
+Use cURL to create a new user named Ben Waters:
+
+```shell
+curl -X POST \
+     -H "Content-Type: application/json" \
+     -d '{ "last_name": "Waters", "first_name": "Ben", "email": "ben.waters@gmail.com" }' \
+     http://localhost:3000/users
+```
+
+In Postman, you'd add the following text in the body:
 
 ```json
 {
-    "last_name": "Waters",
-    "first_name": "Ben",
-    "email": "ben.waters@gmail.com"
+  "last_name": "Waters",
+  "first_name": "Ben",
+  "email": "ben.waters@gmail.com"
 }
 ```
 
-⚠️  If you don't include any data in your request, the server creates an empty user with a unique ID.
-
-## Return body
-
-Returns the information from the request body plus a unique ID.
+Both of the previous examples return the information from the request body plus a unique ID.
 
 ```json
 {
-    "last_name": "Waters",
-    "first_name": "Ben",
-    "email": "ben.waters@gmail.com",
-    "id": 6
+  "last_name": "Waters",
+  "first_name": "Ben",
+  "email": "ben.waters@gmail.com",
+  "id": 5
 }
 ```
 
-## Return status
+> If you don't include any data in your request, the server creates an empty sighting with a unique ID.
+
+## Postman return status
 
 | Status value | Return status | Description                              |
 | ------------ | ------------- | ---------------------------------------- |
 | 201          | Created       | A new resource was created successfully. |
-

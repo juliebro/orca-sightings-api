@@ -14,7 +14,7 @@ Delete a user by ID.
 
 Also see:
 
-* [Get all users or a user by id](./users-get.md)
+- [Get all users or a user by id](./users-get.md)
 
 ## Method
 
@@ -40,7 +40,7 @@ None.
 
 Deletes the user specified.
 
-📒 If you don't specify a user ID, all the users won't be deleted. Instead, the service returns a 404 Not Found error message. 
+> If you don't specify a user ID, all the users won't be deleted. Instead, the service returns a 404 Not Found error message.
 
 ```json
 {}

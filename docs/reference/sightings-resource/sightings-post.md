@@ -14,7 +14,7 @@ Creates a new orca whale sighting.
 
 Also see:
 
-* [Get sighting by id](./sightings-get.md)
+- [Get sighting by id](./sightings-get.md)
 
 ## Method
 
@@ -26,7 +26,7 @@ Also see:
 
 Also see:
 
-* [Base URL](../base-url.md)
+- [Base URL](../base-url.md)
 
 ## Headers
 
@@ -38,38 +38,44 @@ You can use the following properties to add a new sighting to the service: `user
 
 For a description of these properties, see [`/sightings` resource](./sightings-resource.md).
 
-## Request body
+## Examples
 
-This is an example of some key-value pairs you could use to add a sighting.
+Add a new sighting using cURL:
+
+```shell
+curl -X POST \
+     -H "Content-Type: application/json" \
+     -d '{ "user_id": 1, "pod": "K-pod", "time": "2024-12-24T09:20", "location": "Friday Harbor" }' \
+     http://localhost:3000/sightings
+```
+
+Or in the Postman body:
 
 ```json
 {
-    "user_id": 1,
-    "pod": "K-pod",
-    "time": "2024-12-24T09:20",
-    "location": "Friday Harbor"
+  "user_id": 1,
+  "pod": "K-pod",
+  "time": "2024-12-24T09:20",
+  "location": "Friday Harbor"
 }
 ```
 
-⚠️  If you don't include any data in your request, the server creates an empty sighting with a unique ID.
-
-## Return body
-
-Returns the information from the request body plus a unique ID.
+Response:
 
 ```json
 {
-    "user_id": 1,
-    "pod": "K-pod",
-    "time": "2024-12-24T09:20",
-    "location": "Friday Harbor",
-    "id": 9
+  "user_id": 1,
+  "pod": "K-pod",
+  "time": "2024-12-24T09:20",
+  "location": "Friday Harbor",
+  "id": 9
 }
 ```
 
-## Return status
+> If you don't include any data in your request, the server creates an empty sighting with a unique ID.
+
+## Postman return status
 
 | Status value | Return status | Description                              |
 | ------------ | ------------- | ---------------------------------------- |
 | 201          | Created       | A new resource was created successfully. |
-

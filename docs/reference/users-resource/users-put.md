@@ -12,8 +12,8 @@ nav_order: 3
 
 Updates the entire user record for the specified id. The request body must contain the complete updated user information, including any fields that remain unchanged.
 
-* [Get user by id](./users-get.md)
-* [Add a new user](./users-post.md)
+- [Get user by id](./users-get.md)
+- [Add a new user](./users-post.md)
 
 ## Method
 
@@ -24,7 +24,7 @@ Updates the entire user record for the specified id. The request body must conta
 `{base_url}/users/{id}`
 
 Also see:
-* [Base URL](../base-url.md)
+- [Base URL](../base-url.md)
 
 ## Headers
 
@@ -32,35 +32,43 @@ Also see:
 
 ## Properties
 
-| Property name | Type   | Description                                                  | Required? |
-| ------------- | ------ | ------------------------------------------------------------ | --------- |
-| `id`     | integer | The ID of the user you want to update. | Yes        |
+In the endpoint URL, include the `id` of the user you want to update.
 
-## Request body
+You must specify these properties to replace an existing user: `first_name`, `last_name`, and `email`.
 
-Shows an example of some key-value pairs you could use to update an existing user.
+> If you don't include this data in your request, the server creates the user again with no data in that field. Likewise, if you don't include any data in your request, the server creates an empty user with the existing ID.
 
-⚠️  If you don't include the full data in your request, the server creates the user again with no data in that field. Likewise, if you don't include any data in your request, the server creates an empty user with the existing ID.
+For a description of these properties, see [`/users` resource](./users-resource.md).
 
+# Examples
+
+Replace user with an `id` of `4` with new data:
+
+```shell
+curl -X PUT \
+     -H "Content-Type: application/json" \
+     -d '{ "last_name": "Abernathy", "first_name": "Maura", "email": "maura.abernathy@gmail.com", "id": 4 }' \
+     http://localhost:3000/users/3
 ```
+
+Postman request body:
+
+```json
 {
-    "last_name": "Cartman",
-    "first_name": "Eric M",
-    "email": "eric.m.cartman@hotmail.com",
-    "id": 3
+  "last_name": "Abernathy",
+  "first_name": "Maura",
+  "email": "maura.abernathy@gmail.com",
 }
 ```
 
-## Return body
+Returns the information from the request body, including the `id`:
 
-Returns the information from the request body.
-
-```
+```json
 {
-    "last_name": "Cartman",
-    "first_name": "Eric M",
-    "email": "eric.m.cartman@hotmail.com",
-    "id": 3
+  "last_name": "Abernathy",
+  "first_name": "Maura",
+  "email": "maura.abernathy@gmail.com",
+  "id": 4
 }
 ```
 
