@@ -2,8 +2,10 @@
 layout: default
 title: Update a user
 parent: Tutorials
-nav_order: 3
+nav_order: 5
 ---
+
+**On this page:**
 
 - TOC
 {:toc}

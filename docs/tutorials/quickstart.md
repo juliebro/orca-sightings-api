@@ -27,9 +27,7 @@ The files are located in the [orca-sightings-api repo on GitHub](https://github.
 To start the Orca Sightings service:
 
 1. Open a terminal window and `cd` to the location of the `json-server` app.
-
 2. Make sure you intall the API files in the same directory. If they aren't, copy or move them now.
-
 3. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to show it's running.
 
 ```shell
@@ -56,7 +54,6 @@ In this part of the tutorial, you'll use cURL or Postman to list all orca whale 
 ### If you're using cURL
 
 1. Open a terminal window.
-
 2. Run this command:
 
 ```shell
@@ -66,11 +63,8 @@ curl -X GET http://localhost:3000/sightings
 ### If you're using Postman
 
 1 In Postman's main panel on the right, toward the top, select **GET**.
-
 2. Add the following content to the URL text box next to GET: `http://localhost:3000/users/`.
-
 3. If you don't already have the header designated, choose **Headers** and specify **Content-Type: application/json**.
-
 4. Click **Send**.
 
 ## Step 4: View the response
@@ -138,9 +132,8 @@ The response pane should show all sightings and look like this:
 ]
 ```
 
-You should also see a green 200 OK message at the top of the pane. Hover over that text to see the full confirmation message.
+In Postman, you should also see a green 200 OK message at the top of the pane. Hover over that text to see the full confirmation message.
 
 That's it. Next, view the reference topic [`GET /sightings`](../reference/sightings/sightings-get.md) to see an example of listing a specific sighting by its `id`.
 
 Also, you can try other [tutorials](./tutorials.md) like [adding a user](./add-user.md) or view other topics in the [API reference](../reference/api-reference.md).
-

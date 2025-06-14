@@ -5,15 +5,18 @@ parent: Sightings resource
 nav_order: 2
 ---
 
+**On this page:**
+
 - TOC
 {:toc}
 
 # `POST /sightings` add a new sighting
 
-Creates a new orca whale sighting.
+Creates a new orca whale sighting. Before you add a sighting, you should have a user to assign it to.
 
 Also see:
 
+- [Add a new user](../users/add-user.md)
 - [Get sighting by id](./sightings-get.md)
 
 ## Method

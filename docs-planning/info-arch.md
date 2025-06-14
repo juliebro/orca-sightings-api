@@ -4,7 +4,7 @@
 
 ## `/docs`
 
-Root of doc set deliverable. Docs are published to https://juliebro.github.io/orca-sightings-api/ 
+Root of doc set deliverable. Docs appear at https://juliebro.github.io/orca-sightings-api/.
 
 ### `index.md`
 
@@ -22,7 +22,7 @@ Contains "index" file  `tutorials.md`.  Also includes:
 - `update-sighting` → how to update all or part of a sighting (PUT/PATCH)
 - `delete-sighting` → how to delete a sighting
 
-Supporting topics that are reused across multiple other topics:
+Supporting topics that are reused across other topics:
 
 - `set-up-dev-env.md` → how to set up the development environment
 - `start-service.md` → how to start the Orca Sightings service

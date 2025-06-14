@@ -5,6 +5,8 @@ parent: Tutorials
 nav_order: 1
 ---
 
+**On this page:**
+
 - TOC
 {:toc}
 
@@ -32,15 +34,15 @@ Download a current copy of the **database file** and the relevant **startup scri
 
 To download each file:
 
-1. Hover over a file name and click the link that appears.
-1. On the upper right side of the panel, click the download button (a down arrow).
+1. Hover over a filename and click the link that appears.
+1. On the upper right side of the panel, click the download button, a down arrow.
 1. Do this for the `orca-sightings-db.json` file and one of the startup scripts: `orca-sightings.sh` for macOS and Linux or  `start-server.bat` for Windows.
 
 ## Step 3: Run JSON Server with the `orca-sightings-db.json` file
 
 1. Go to the directory on your computer where you downloaded `orca-sightings-db.json` and the relevant start script.
 
-2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open a terminal window, `cd` to the directory where you downloaded the files, and type `./orca-sightings.sh`. That runs the script in the current directory. If that doesn't work, type `json-server orca-sightings-db.json`. You should see some text like this to indicate the service is running:
+2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open a terminal window, `cd` to the directory where you downloaded the files, and type `./orca-sightings.sh`. That runs the script in the current directory. If that doesn't work, type `json-server orca-sightings-db.json`. You should see some text like this that shows the service is running:
 
    ```shell
    user@macbookair ~ % json-server orca-sightings-db.json
@@ -97,7 +99,7 @@ To download each file:
 
 ## Troubleshooting
 
-If you receive an error in any step of the procedure, investigate and correct the error before continuing. Some common situations that cause errors include:
+If you receive an error in any step of the procedure, investigate, and correct the error before continuing. Some common situations that cause errors include:
 
 - You mistyped a command.
 - You aren't in the correct directory.

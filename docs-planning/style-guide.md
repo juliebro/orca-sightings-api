@@ -2,13 +2,17 @@
 
 *Draft 1*
 
+## Active voice
+
+Use it whenever possible.
+
 ## Contractions
 
 Always use them unless it makes the sentence awkward to read.
 
 ## Method/endpoint topics
 
-Title should looks like this: 
+Title should looks like this:
 
 `GET /sightings` retrieve all sightings
 

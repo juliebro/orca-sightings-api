@@ -5,6 +5,8 @@ parent: Users resource
 nav_order: 2
 ---
 
+**On this page:**
+
 - TOC
 {:toc}
 

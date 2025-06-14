@@ -5,6 +5,8 @@ parent: Sightings resource
 nav_order: 3
 ---
 
+**On this page:**
+
 - TOC
 {:toc}
 
@@ -25,7 +27,7 @@ Updates the entire sightings record for the specified `id`. The request body mus
 
 Also see:
 
-* [Base URL](../base-url.md)
+- [Base URL](../base-url.md)
 
 ## Parameters
 

@@ -3,30 +3,26 @@ layout: default
 nav_order: 3
 ---
 
-# Add a task `POST /tasks`
+# `POST /sightings` add a sighting
 
-Adds a new task.
+Adds a new sighting.
 
-Before you add a task, you should have a user to assign it to.
+Before you add a sighting, you should have a user to assign it to.
 
 - [Get user by id](https://github.com/UWC2-APIDOC/to-do-service-sp25/blob/main/docs/api/users-get-user-by-id.md)
 - [Add a new user](https://github.com/UWC2-APIDOC/to-do-service-sp25/blob/main/docs/tutorials/enroll-a-new-user.md)
 
 ## Method
 
-```
-POST
-```
+`POST`
 
-## URL
+## Endpoint
 
-```
-{server-url}/tasks
-```
+`{base_url}/sightings`
 
-## Properties
+## Parameters
 
-| Property name | Type   | Description                                                  | Required? |
+| Parameter name | Type   | Description                                                  | Required? |
 | ------------- | ------ | ------------------------------------------------------------ | --------- |
 | `user_id`     | number | The ID of the assigned user                                  | No        |
 | `title`       | string | The title or short description of the task                   | No        |
@@ -34,7 +30,7 @@ POST
 | `due_date`    | string | The [date and time](https://en.wikipedia.org/wiki/ISO_8601) the task is due | No        |
 | `warning`     | number | The number of minutes relative to the `due_date` to alert the user of the task. This is normally a negative number to alert the user before the `due_date`. | No        |
 
-You should specify at least a `user_id` and a `title`, even though the To-Do Service doesn't require any properties.
+You should specify at least a `user_id` and a `title`, even though the Orca Sightings service doesn't require any properties.
 
 ## Headers
 
