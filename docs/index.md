@@ -13,7 +13,8 @@ Using this service, orca enthusiasts can report the location and time of their s
 
 To get started, learn how to [set up your development environment](./tutorials/set-up-dev-env.md) and [list all sightings](./tutorials/quickstart.md) in the service, or jump down to learn more about the [user community](#user-community) and [features](#features).
 
-> This is a simulated REST interface only for the demonstration of API documentation. As such, the service doesn't require authentication.
+{: .warning }
+This is a simulated REST interface only for the demonstration of API documentation. As such, the service doesn't require authentication.
 
 ![ Photo of orca whales](https://images.unsplash.com/photo-1602264836619-094873fa05fc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b3JjYSUyMHdoYWxlfGVufDB8fDB8fHww)
 
@@ -30,4 +31,5 @@ The Orca Sightings service is a RESTful API designed to support this community. 
 - [Update existing user information](./tutorials/update-user.md) and [sighting details](./tutorials/update-sighting.md).
 - [Delete user accounts](./tutorials/delete-user.md) and [sighting entries](./tutorials/delete-sighting.md).
 
-> *This section includes links to the relevant tutorials for each action in the preceeding bulleted list. Most of the links don't work now.*
+{: .note }
+This section includes links to the relevant tutorials for each action in the preceeding bulleted list. Most of the links don't work now.
