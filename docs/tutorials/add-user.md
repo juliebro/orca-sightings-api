@@ -14,8 +14,8 @@ This tutorial should take you about 15 minutes to complete.
 
 Also see the API reference pages:
 
-* [PUT /users](../reference/users-resource/users-put.md)
-* [PATCH /users](../reference/users-resource/users-patch.md)
+- [PUT /users](../reference/users-resource/users-put.md)
+- [PATCH /users](../reference/users-resource/users-patch.md)
 
 ## Before you begin
 
@@ -26,23 +26,23 @@ Make sure you've [set up your development environment](./set-up-dev-env.md).
 1. Open a terminal window and cd to the location of `json-server`.
 
 2. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to indicate it's running.
-   ```
-   user@macbookair ~ % json-server orca-sightings-db.json
+3. 
+```shell
+user@macbookair ~ % json-server orca-sightings-db.json
    
-     \{^_^}/ hi!
+\{^_^}/ hi!
    
-     Loading orca-sightings-db.json
-     Done
+Loading orca-sightings-db.json
+Done
    
-     Resources
-     http://localhost:3000/users
-     http://localhost:3000/sightings
+Resources
+http://localhost:3000/users
+http://localhost:3000/sightings
    
-     Home
-     http://localhost:3000
+Home
+http://localhost:3000
    ```
 
 ## Step 2: Open Postman
 
-
-
+> *Infomration to come.*

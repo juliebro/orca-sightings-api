@@ -21,23 +21,23 @@ Also see the [`/users` resource](../users/users-resource.md).
 
 Also see [Base URL](../base-url.md)
 
-## Resource parameters
+## Parameters
 
 Example of a full `/sightings` resource:
 
 ```json
 {
-    "id": 1,
-    "user_id": 1,
-    "pod": "J-pod",
-    "time": "2025-05-03T10:00",
-    "location": "Lime Kiln Point State Park"
+  "id": 1,
+  "user_id": 1,
+  "pod": "J-pod",
+  "time": "2025-05-03T10:00",
+  "location": "Lime Kiln Point State Park"
 }
 ```
 
 Description of resource parameters:
 
-| Property   | Type      | Description                                                  | Example                        |
+| Parameter | Type      | Description                                                  | Example                        |
 | ---------- | --------- | ------------------------------------------------------------ | ------------------------------ |
 | `id`       | `integer` | Unique identifier for the sighting. Read-only and automatically generated. | `1`                            |
 | `user_id`  | `integer` | The ID of the user who reported the sighting, as described in the [`/users` resource](../users-resource/users-resource.md). | `1`                            |
@@ -49,21 +49,21 @@ Description of resource parameters:
 
 ### `GET`
 
-* [Get all sightings](./sightings-get.md)
-* [Get a sighting by ID](./sightings-get.md)
+- [Get all sightings](./sightings-get.md)
+- [Get a sighting by ID](./sightings-get.md)
 
 ### `POST`
 
-* [Add a new sighting](./sightings-post.md)
+- [Add a new sighting](./sightings-post.md)
 
 ### `PUT`
 
-* [Update an existing sighting's information](./sightings-put.md)
+- [Update an existing sighting's information](./sightings-put.md)
 
 ### `PATCH`
 
-* [Update part of an existing sighting's information](./sightings-patch.md)
+- [Update part of an existing sighting's information](./sightings-patch.md)
 
 ### `DELETE`
 
-* [Delete a sighting](./sightings-delete.md)
+- [Delete a sighting](./sightings-delete.md)

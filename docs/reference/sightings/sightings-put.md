@@ -12,8 +12,8 @@ nav_order: 3
 
 Updates the entire sightings record for the specified `id`. The request body must contain the complete updated sighting information, including any fields that remain unchanged.
 
-* [Get sighting by id](./sightings-get.md)
-* [Add a new sighting](./sightings-post.md)
+- [Get sighting by id](./sightings-get.md)
+- [Add a new sighting](./sightings-post.md)
 
 ## Method
 
@@ -100,4 +100,3 @@ Returns the information from the request body plus the ID specified in the endpo
 | ------------ | ------------- | ------------------------------------------------------------ |
 | 200          | OK            | Request successful. The server has responded as required.    |
 | 400          | Bad Request   | The server could not understand the request. Maybe a bad syntax? |
-

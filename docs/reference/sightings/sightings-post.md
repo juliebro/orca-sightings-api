@@ -30,7 +30,7 @@ Also see:
 
 ## Parameters
 
-Optional, but recommended: You can use the following parameters to add a new sighting to the service: `user_id`, `pod`, `time`, and `location`. The service automatically assigns the new user a unique `id`.
+Optional, but recommended: `user_id`, `pod`, `time`, and `location`. The service automatically assigns the new user a unique `id`.
 
 > If you don't include any data in your request, the server creates an empty sighting with a unique ID.
 

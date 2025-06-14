@@ -13,6 +13,3 @@ Title should looks like this:
 `GET /sightings` retrieve all sightings
 
 Notice that there's no colon after the endpoint and the description starts with lower case.
-
-
-
