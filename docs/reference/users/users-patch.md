@@ -29,9 +29,9 @@ Also see:
 
 ## Properties
 
-`id` - the ID of the user to be updated
+Required: the `id` of the user to be updated. Specify this in the endpoint.
 
-For a description of all properties, see [`/users` resource](./users-resource.md).
+For a description of all properties, see [`/users` resource](./users-resource.md#parameters).
 
 ## Headers
 
@@ -39,7 +39,30 @@ For a description of all properties, see [`/users` resource](./users-resource.md
 
 ## Request body
 
-Shows an example of some key-value pairs you could use to update some data for a user.
+### cURL example
+
+Shows updating the `first_name` of the user with an `id` of `1`.
+
+```shell
+curl -X PATCH \
+  -H "Content-Type: application/json" \
+  -d '{
+    "first_name": "Benjamin"
+  }' \
+  http://localhost:3000/users/6
+```
+
+### Postman example
+
+Shows updating the `first_name` of the user with an `id` of `6`.
+
+#### Request builder method and endpoint
+
+Select **PATCH** and enter  `http://localhost:3000/users/6`.
+
+#### Request builder body
+
+Select **Body > raw > JSON** and enter:
 
 ```json
 {

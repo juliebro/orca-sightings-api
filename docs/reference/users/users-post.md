@@ -8,7 +8,7 @@ nav_order: 2
 - TOC
 {:toc}
 
-# `POST /users`: add a new user
+# `POST /users` add a new user
 
 Creates a new user account for an orca whale watching enthusiast.
 
@@ -28,19 +28,21 @@ Also see:
 
 * [Base URL](../base-url.md)
 
+## Parameters
+
+Optional, but all are recommended:  `first_name`, `last_name`, and `email`. The service automatically assigns the new user a unique `id`.
+
+For a description of these properties, see [`/users` resource](./users-resource.md#parameters).
+
 ## Headers
 
 `Content-Type: application/json`
 
-## Properties
+## Request body
 
-You can use the following properties to add a new user to the service: `first_name`, `last_name`, and `email`. The service automatically assigns the new user a unique `id`.
+### cURL example
 
-For a description of these properties, see [`/users` resource](./users-resource.md).
-
-## Examples
-
-Use cURL to create a new user named Ben Waters:
+Shows creating a new user named Ben Waters.
 
 ```shell
 curl -X POST \
@@ -49,7 +51,17 @@ curl -X POST \
      http://localhost:3000/users
 ```
 
-In Postman, you'd add the following text in the body:
+### Postman example
+
+Shows creating a new user named Ben Waters.
+
+#### Request builder method and endpoint
+
+Select **POST** and enter  `http://localhost:3000/users/`.
+
+#### Request builder body
+
+Select **Body > raw > JSON** and enter:
 
 ```json
 {
@@ -58,6 +70,8 @@ In Postman, you'd add the following text in the body:
   "email": "ben.waters@gmail.com"
 }
 ```
+
+## Response
 
 Both of the previous examples return the information from the request body plus a unique ID.
 
@@ -69,8 +83,6 @@ Both of the previous examples return the information from the request body plus 
   "id": 5
 }
 ```
-
-> If you don't include any data in your request, the server creates an empty sighting with a unique ID.
 
 ## Postman return status
 

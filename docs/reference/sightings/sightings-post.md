@@ -8,7 +8,7 @@ nav_order: 2
 - TOC
 {:toc}
 
-# `POST /sightings`: add a new sighting
+# `POST /sightings` add a new sighting
 
 Creates a new orca whale sighting.
 
@@ -20,7 +20,7 @@ Also see:
 
 `POST`
 
-## URL
+## Endpoint
 
 `{base_url}/sightings`
 
@@ -28,19 +28,23 @@ Also see:
 
 - [Base URL](../base-url.md)
 
+## Parameters
+
+Optional, but recommended: You can use the following parameters to add a new sighting to the service: `user_id`, `pod`, `time`, and `location`. The service automatically assigns the new user a unique `id`.
+
+> If you don't include any data in your request, the server creates an empty sighting with a unique ID.
+
+For a description of these parameters, see [`/sightings` resource](./sightings-resource.md#parameters).
+
 ## Headers
 
 `Content-Type: application/json`
 
-## Properties
+## Request body
 
-You can use the following properties to add a new sighting to the service: `user_id`, `pod`, `time`, and `location`. The service automatically assigns the new user a unique `id`.
+### cURL example
 
-For a description of these properties, see [`/sightings` resource](./sightings-resource.md).
-
-## Examples
-
-Add a new sighting using cURL:
+Shows an example of adding a new sighting using all available parameters.
 
 ```shell
 curl -X POST \
@@ -49,7 +53,9 @@ curl -X POST \
      http://localhost:3000/sightings
 ```
 
-Or in the Postman body:
+### Postman example
+
+Shows an example of adding a new sighting using all available parameters.
 
 ```json
 {
@@ -60,7 +66,9 @@ Or in the Postman body:
 }
 ```
 
-Response:
+## Response
+
+Shows the response for the previous request body examples.
 
 ```json
 {
@@ -71,8 +79,6 @@ Response:
   "id": 9
 }
 ```
-
-> If you don't include any data in your request, the server creates an empty sighting with a unique ID.
 
 ## Postman return status
 

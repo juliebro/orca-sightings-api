@@ -32,9 +32,31 @@ None.
 
 `Content-Type: application/json`
 
+## Parameters
+
+Required: The `id` of the user you want to delete. Specify this in the endpoint.
+
+For a full description of all `/users` properties, see [`/users` resource](./users-resource.md#parameters).
+
 ## Request body
 
-None.
+### cURL example
+
+Deletes the user with an `id` of `4` .
+
+```shell
+curl -X DELETE http://localhost:3000/users/4
+```
+
+### Postman example
+
+#### Request builder method and endpoint
+
+Select **DELETE** and enter  `http://localhost:3000/users/4`.
+
+#### Request builder body
+
+None required.
 
 ## Return body
 

@@ -13,7 +13,7 @@ has_toc: false
 
 The `/users` resource lets you add a new user, update all or part of an existing user, list all users, list a user by its ID, or delete an existing user by its ID. Users represent the whale watching enthusiasts who report orca sightings.
 
-Also see [`/sightings` resource](../sightings-resource/sightings-resource.md).
+Also see [`/sightings` resource](../sightings/sightings-resource.md).
 
 ## Endpoint
 
@@ -23,7 +23,7 @@ Also see [Base URL](../base-url.md).
 
 ## Resource properties
 
-This code block shows an example of a full `/users` resource:
+Shows an example of a full `/users` resource:
 
 ```json
 {
@@ -34,7 +34,7 @@ This code block shows an example of a full `/users` resource:
 }
 ```
 
-This table describes all of the fields available in the `/users` resource:
+Describes all fields available in the `/users` resource:
 
 | Property     | Type      | Description                                                  | Example                  |
 | ------------ | --------- | ------------------------------------------------------------ | ------------------------ |

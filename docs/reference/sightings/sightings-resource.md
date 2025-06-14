@@ -11,9 +11,9 @@ has_toc: false
 
 # `/sightings` resource
 
-The `/sightings` resource lets you add a new orca whale sighting, update an existing sighting by its ID, list all sightings, list a sighting by its ID, or delete an existing sighting by its ID.
+The `/sightings` endpoint lets you add a new orca whale sighting, update an existing sighting by its ID, list all sightings, list a sighting by its ID, or delete an existing sighting by its ID.
 
-Also see the [`/users` resource](../users-resource/users-resource.md).
+Also see the [`/users` resource](../users/users-resource.md).
 
 ## Endpoint
 
@@ -21,9 +21,9 @@ Also see the [`/users` resource](../users-resource/users-resource.md).
 
 Also see [Base URL](../base-url.md)
 
-## Resource properties
+## Resource parameters
 
-This code block shows an example of a full `/sightings` resource:
+Example of a full `/sightings` resource:
 
 ```json
 {
@@ -35,7 +35,7 @@ This code block shows an example of a full `/sightings` resource:
 }
 ```
 
-This table describes all of the fields available in the `/sightings` resource:
+Description of resource parameters:
 
 | Property   | Type      | Description                                                  | Example                        |
 | ---------- | --------- | ------------------------------------------------------------ | ------------------------------ |
