@@ -49,6 +49,9 @@ callouts:
   note:
     title: Note
     color: blue
+  comment:
+    title: Comment
+    color: yellow
 # Enable or disable the site search
 # Supports true (default) or false
 #

@@ -12,7 +12,7 @@ nav_order: 5
 
 # `DELETE /users`: delete a user by ID
 
-Delete a user by ID.
+Deletes a user by ID.
 
 Also see:
 
@@ -22,13 +22,13 @@ Also see:
 
 `DELETE`
 
-## URL
+## Endpoint
 
-`{base_url}/users/{id}` - deletes a specific user
+`{base_url}/users/{id}`
 
-## Properties
+Also see:
 
-None.
+- [Base URL](../base-url.md)
 
 ## Headers
 
@@ -36,7 +36,7 @@ None.
 
 ## Parameters
 
-Required: The `id` of the user you want to delete. Specify this in the endpoint.
+Required: the `id` of the user you want to delete. Specify this in the endpoint.
 
 For a full description of all `/users` properties, see [`/users` resource](./users-resource.md#parameters).
 
@@ -62,13 +62,14 @@ None required.
 
 ## Return body
 
-Deletes the user specified.
-
-> If you don't specify a user ID, all the users won't be deleted. Instead, the service returns a 404 Not Found error message.
+Shows empty brackets.
 
 ```json
 {}
 ```
+
+{: .note }
+If you don't specify a user ID, the service won't delete all the users. Instead, it returns a **404 Not Found** error message.
 
 ## Return status
 
@@ -76,4 +77,3 @@ Deletes the user specified.
 | ------------ | ------------- | --------------------------------------------------------- |
 | 200          | OK            | Request successful. The server has responded as required. |
 | 404          | Not Found     | Requested resource could not be found.                    |
-

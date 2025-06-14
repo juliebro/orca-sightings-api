@@ -30,11 +30,12 @@ Also see:
 
 ## Parameters
 
-Required: The `id` of the user you want to update.
+Required: the `id` of the user you want to update.
 
-Optional, but all are recommended: You can specify these properties to replace an existing user: `first_name`, `last_name`, and `email`.
+Optional, you should include all: `first_name`, `last_name`, and `email`.
 
-> If you don't include this data in your request, the server creates the user again with no data in that field. Likewise, if you don't include any data in your request, the server creates an empty user with the existing ID.
+{: .warning }
+If you don't include this data in your request, the server creates the user again with no data in that field. Likewise, if you don't include any data in your request, the server creates an empty user with the existing ID.
 
 For a description of these properties, see [`/users` resource](./users-resource.md#parameters).
 

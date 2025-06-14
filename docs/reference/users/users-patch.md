@@ -16,24 +16,28 @@ Updates some of the details about a user.
 
 Also see:
 
-* [Update all or part of a user entry: a tutorial](../../tutorials/update-user.md)
-* [GET: List all users](./users-get.md)
-* [GET: Get user by id](./users-get.md)
-* [PATCH: Update part of a sighting](../sightings-resource/sightings-patch.md)
+- [Update all or part of a user entry: a tutorial](../../tutorials/update-user.md)
+- [GET: List all users](./users-get.md)
+- [GET: Get user by id](./users-get.md)
+- [PATCH: Update part of a sighting](../sightings-resource/sightings-patch.md)
 
 ## Method
 
 `PATCH`
 
-## URL
+## Endpoint
 
 `{base_url}/users/{id}`
 
-## Properties
+Also see:
 
-Required: the `id` of the user to be updated. Specify this in the endpoint.
+- [Base URL](../base-url.md)
 
-For a description of all properties, see [`/users` resource](./users-resource.md#parameters).
+## Parameters
+
+Required: the `id` of the user you want to update.
+
+For a description of all parameters, see [`/users` resource](./users-resource.md#parameters).
 
 ## Headers
 
@@ -91,4 +95,3 @@ Returns the updated user entry.
 | ------------ | ------------- | --------------------------------------------------------- |
 | 200          | OK            | Request successful. The server has responded as required. |
 | 404          | Not Found     | Requested resource could not be found.                    |
-

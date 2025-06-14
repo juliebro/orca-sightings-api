@@ -28,11 +28,11 @@ Also see:
 
 Also see:
 
-* [Base URL](../base-url.md)
+- [Base URL](../base-url.md)
 
 ## Parameters
 
-Optional, but all are recommended:  `first_name`, `last_name`, and `email`. The service automatically assigns the new user a unique `id`.
+Optional, you should include all:  `first_name`, `last_name`, and `email`. The service automatically assigns the new user a unique `id`.
 
 For a description of these properties, see [`/users` resource](./users-resource.md#parameters).
 

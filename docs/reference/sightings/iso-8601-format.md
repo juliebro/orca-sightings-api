@@ -12,7 +12,8 @@ nav_order: 6
 
 # What is ISO 8601 format?
 
-*Written with help from Gemini 2.5 Flash.*
+{: .note }
+Written with help from Gemini 2.5 Flash.
 
 ISO 8601 is a widely used international standard for representing dates and times. It provides a consistent and unambiguous way to express dates and times, regardless of cultural differences or time zones.
 
@@ -36,4 +37,4 @@ ISO 8601 is a widely used international standard for representing dates and time
 
 ## Related topic
 
-* [`/sightings` resource](./sightings-resource.md)
+- [`/sightings` resource](./sightings-resource.md)

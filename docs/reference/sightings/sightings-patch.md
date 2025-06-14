@@ -16,8 +16,8 @@ Updates some of the details about a sighting.
 
 Also see:
 
-* [List all sightings](./sightings-get.md)
-* [Get sighting by id](./sightings-get.md)
+- [List all sightings](./sightings-get.md)
+- [Get sighting by id](./sightings-get.md)
 
 ## Method
 
@@ -29,9 +29,9 @@ Also see:
 
 ## Parameters
 
-Required: specify a sighting `id` to be updated.
+Required: specify a sighting `id`.
 
-Optional, but at least one is recommended: `user_id`, `pod`, `time`, and `location`.
+Optional, but you should include at least one: `user_id`, `pod`, `time`, and `location`.
 
 For a description of these properties, see [`/sightings` resource](./sightings-resource.md#parameters).
 
@@ -84,4 +84,3 @@ Returns the updated sightings entry.
 | ------------ | ------------- | --------------------------------------------------------- |
 | 200          | OK            | Request successful. The server has responded as required. |
 | 404          | Not Found     | Requested resource could not be found.                    |
-

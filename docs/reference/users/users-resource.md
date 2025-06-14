@@ -49,21 +49,21 @@ Describes all parameters available in the `/users` resource:
 
 ### `GET`
 
-* [Get all users](./users-get.md)
-* [Get an existing user by ID](./users-get.md)
+- [Get all users](./users-get.md)
+- [Get an existing user by ID](./users-get.md)
 
 ### `POST`
 
-* [Create a new user](./users-post.md)
+- [Create a new user](./users-post.md)
 
 ### `PUT`
 
-* [Update an existing user's information](./users-put.md)
+- [Update an existing user's information](./users-put.md)
 
 ### `PATCH`
 
-* [Update part of an existing user's information](./users-patch.md)
+- [Update part of an existing user's information](./users-patch.md)
 
 ### `DELETE`
 
-* [Delete a user by ID](./users-delete.md)
+- [Delete a user by ID](./users-delete.md)

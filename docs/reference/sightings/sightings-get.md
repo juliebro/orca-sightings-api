@@ -74,7 +74,6 @@ Returns all sightings or the specific sighting requested. The following example 
 }
 ```
 
-
 ## Postman return status
 
 | Status value | Return status | Description                                               |

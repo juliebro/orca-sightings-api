@@ -18,15 +18,19 @@ Retrieves a list of all users or a user by ID.
 
 `GET`
 
-## URL
+## Endpoints
 
-`{base_url}/users` - shows all existing users in the service
+`{base_url}/users` - lists all existing users in the service
 
-`{base_url}/users/{id}` - shows a specific user
+`{base_url}/users/{id}` - lists a specific user
+
+Also see:
+
+- [Base URL](../base-url.md)
 
 ## Parameters
 
-Optional: the `id` of a particular user to list
+Optional: the `id` of a specific user to list.
 
 For a description of all parameters, see [`/users` resource](./users-resource.md#parameters).
 
