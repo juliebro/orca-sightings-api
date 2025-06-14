@@ -10,7 +10,7 @@ nav_order: 2
 
 # Get started by listing orca sightings: a tutorial
 
-This tutorial shows you how to download the API files and try one of the service actions: viewing all of the orca sightings reported in the app for the San Juan Islands. If you've already [set up your development environment](set-up-dev-env.md), the process should take about 15 minutes.
+This tutorial shows you how to download the API files and try one of the service actions: viewing all orca sightings reported in the app for the San Juan Islands. If you've already [set up your development environment](set-up-dev-env.md), the process should take about 15 minutes.
 
 ## Step 1: Make sure you have the API files
 
@@ -32,28 +32,31 @@ To start the Orca Sightings service:
 
 ```shell
  user@macbookair ~ % json-server orca-sightings-db.json
-   
-\{^_^}/ hi!
-   
-Loading orca-sightings-db.json
-Done
-   
-Resources
-http://localhost:3000/users
-http://localhost:3000/sightings
-   
-Home
-http://localhost:3000
+
+  \{^_^}/ hi!
+
+  Loading orca-sightings-db.json
+  Done
+
+  Resources
+  http://localhost:3000/users
+  http://localhost:3000/sightings
+
+  Home
+  http://localhost:3000
+
 ```
 
 ## Step 3: Use Postman to list orca whale sightings
 
 In this part of the tutorial, you'll use Postman to list all orca whale sightings.
 
-1. In Postman's main panel on the right, toward the top, select **PUT**.
-2. Add the following content to the URL text box next to GET:
-`http://localhost:3000/users/`
+1. In Postman's main panel on the right, toward the top, select **GET**.
+
+2. Add the following content to the URL text box next to GET: `http://localhost:3000/users/`.
+
 3. If you don't already have the header designated, choose **Headers** and specify **Content-Type: application/json**.
+
 4. Click **Send**.
 
 The response pane should look like this:
@@ -118,3 +121,7 @@ The response pane should look like this:
     }
 ]
 ```
+
+You should also see a green 200 OK message at the top of the pane. Hover over that text to see the full confirmation message.
+
+That's it. Next, try other [tutorials](./tutorials.md) like [adding a user](./add-user.md) or view topics in the [API reference](../reference/api-reference.md). The reference topic for listing all sightings is [`GET /sightings`](../reference/sightings/sightings-get.md).
