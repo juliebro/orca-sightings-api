@@ -5,12 +5,14 @@ parent: Tutorials
 nav_order: 2
 ---
 
+**On this page:**
+
 - TOC
 {:toc}
 
 # Get started by listing orca sightings: a tutorial
 
-This tutorial shows you how to download the API files and try one of the service actions: viewing all orca sightings reported in the app for the San Juan Islands. If you've already [set up your development environment](set-up-dev-env.md), the process should take about 15 minutes.
+This tutorial shows you how to download the API files and try one of the service actions: viewing all orca sightings reported in the app for the San Juan Islands. If you've already [set up your development environment](./set-up-dev-env.md), the process should take about 20 minutes.
 
 ## Step 1: Make sure you have the API files
 
@@ -26,7 +28,7 @@ To start the Orca Sightings service:
 
 1. Open a terminal window and `cd` to the location of the `json-server` app.
 
-2. Make sure you intall the API files in the same directory. If they aren't copy or move them now.
+2. Make sure you intall the API files in the same directory. If they aren't, copy or move them now.
 
 3. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to show it's running.
 
@@ -47,11 +49,23 @@ To start the Orca Sightings service:
 
 ```
 
-## Step 3: Use Postman to list orca whale sightings
+## Step 3: List orca whale sightings
 
-In this part of the tutorial, you'll use Postman to list all orca whale sightings.
+In this part of the tutorial, you'll use cURL or Postman to list all orca whale sightings.
 
-1. In Postman's main panel on the right, toward the top, select **GET**.
+### If you're using cURL
+
+1. Open a terminal window.
+
+2. Run this command:
+
+```shell
+curl -X GET http://localhost:3000/sightings
+```
+
+### If you're using Postman
+
+1 In Postman's main panel on the right, toward the top, select **GET**.
 
 2. Add the following content to the URL text box next to GET: `http://localhost:3000/users/`.
 
@@ -59,7 +73,9 @@ In this part of the tutorial, you'll use Postman to list all orca whale sighting
 
 4. Click **Send**.
 
-The response pane should look like this:
+## Step 4: View the response
+
+The response pane should show all sightings and look like this:
 
 ```json
 [
@@ -124,4 +140,7 @@ The response pane should look like this:
 
 You should also see a green 200 OK message at the top of the pane. Hover over that text to see the full confirmation message.
 
-That's it. Next, try other [tutorials](./tutorials.md) like [adding a user](./add-user.md) or view topics in the [API reference](../reference/api-reference.md). The reference topic for listing all sightings is [`GET /sightings`](../reference/sightings/sightings-get.md).
+That's it. Next, view the reference topic [`GET /sightings`](../reference/sightings/sightings-get.md) to see an example of listing a specific sighting by its `id`.
+
+Also, you can try other [tutorials](./tutorials.md) like [adding a user](./add-user.md) or view other topics in the [API reference](../reference/api-reference.md).
+
