@@ -8,7 +8,7 @@ nav_order: 1
 - TOC
 {:toc}
 
-# `GET /sightings`: list all sightings or a sighting by ID
+# `GET /sightings` list all sightings or a sighting by ID
 
 Lists all sightings of orca whales reported in the service or a sighting by ID.
 

@@ -5,11 +5,12 @@ parent: Tutorials
 nav_order: 3
 ---
 
+- TOC
+{:toc}
+
 # Update a user: a tutorial
 
 This tutorial should take you about 25 minutes to complete.
-
-[TOC]
 
 Also see the API reference pages:
 
@@ -76,24 +77,24 @@ In this part of the tutorial, you'll replace the entire entry using the PUT meth
 
  > Notice that you don't need the ID. You'll enter it in Postman's URL text box. You do need to remove the trailing comma in the last key-value pair.
 
-   ```json
-   {
-       "last_name": "McCormick",
-       "first_name": "Ken",
-       "email": "ken.mccormick@gmail.com"
-   }
-   ```
+```json
+{
+   "last_name": "McCormick",
+   "first_name": "Ken",
+   "email": "ken.mccormick@gmail.com"
+ }
+ ```
 
 Notice that the response includes the entire entry details with the ID.
 
-   ```json
-   {
-       "last_name": "McCormick",
-       "first_name": "Ken",
-       "email": "ken.mccormick@gmail.com",
-       "id": 4
-   }
-   ```
+```json
+{
+  "last_name": "McCormick",
+  "first_name": "Ken",
+  "email": "ken.mccormick@gmail.com",
+  "id": 4
+ }
+```
 
 ## How to update part of the entry
 
