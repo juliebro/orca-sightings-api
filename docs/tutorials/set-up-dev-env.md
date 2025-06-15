@@ -58,19 +58,25 @@ To download each file:
    
      Home
      http://localhost:3000
-
 ```
 
 ## Step 4: Make a test call to the service
+
+Use cURL or Postman to test the service.
+
+### Using cURL
+
+
+
+### Using Postman
 
 1. Open Postman.
 2. At the top of the right pane, select **GET**.
 3. Next to **GET**, type `http://localhost:3000/users`.
 
-If the service is running correctly, you should see a list of all existing users. 
+If the service is running correctly, you should see a list of all existing users.
 
 ```json
-
 [
   {
     "last_name": "Marsh",
@@ -97,7 +103,6 @@ If the service is running correctly, you should see a list of all existing users
     "id": 4
   }
 ]
-
 ```
 
 ## Troubleshooting
