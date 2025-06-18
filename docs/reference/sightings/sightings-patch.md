@@ -27,13 +27,13 @@ Also see:
 
 `{base_url}/sightings/{id}`
 
-## Parameters
+## Properties
 
 Required: specify a sighting `id`.
 
 Optional, but you should include at least one: `user_id`, `pod`, `time`, and `location`.
 
-For a description of these properties, see [`/sightings` resource](./sightings-resource.md#parameters).
+For a description of these properties, see [`/sightings` resource](./sightings-resource.md#properties).
 
 ## Headers
 
