@@ -34,11 +34,11 @@ Also see:
 
 `Content-Type: application/json`
 
-## Parameters
+## Properties
 
 Required: the `id` of the user you want to delete. Specify this in the endpoint.
 
-For a full description of all `/users` properties, see [`/users` resource](./users-resource.md#parameters).
+For a full description of all `/users` properties, see [`/users` resource](./users-resource.md#properties).
 
 ## Request body
 
