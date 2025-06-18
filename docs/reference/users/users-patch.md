@@ -33,11 +33,11 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Required: the `id` of the user you want to update.
 
-For a description of all parameters, see [`/users` resource](./users-resource.md#parameters).
+For a description of all properties, see [`/users` resource](./users-resource.md#properties).
 
 ## Headers
 
