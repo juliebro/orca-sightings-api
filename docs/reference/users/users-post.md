@@ -30,9 +30,9 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
-Optional, you should include all:  `first_name`, `last_name`, and `email`. The service automatically assigns the new user a unique `id`.
+Optional, but you should include all:  `first_name`, `last_name`, and `email`. The service automatically assigns the new user a unique `id`.
 
 For a description of these properties, see [`/users` resource](./users-resource.md#parameters).
 
