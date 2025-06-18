@@ -125,7 +125,7 @@ back_to_top_text: "Back to top"
 
 #
 #   !!! CHANGE THIS VALUE TO APPLY TO YOUR DOCUMENTATION
-footer_content: "This work is for educational use only. Copyright &copy; 2025 Julie Brodeur (technical writer) and Jeff Naemura (subject matter expert). Distributed by an <a href=\"https://github.com/juliebro/orca-sightings-api/blob/mod11/LICENSE.md>MIT license</a>." 
+footer_content: "Copyright &copy; 2025 Julie Brodeur (technical writer) and Jeff Naemura (subject matter expert). Distributed by an MIT license. This work is for educational purposes only." 
 
 # - - - - - - - - - - - - - - - - 
 #
