@@ -30,11 +30,11 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Required: the `id` of the user you want to delete. Specify this in the endpoint.
 
-For a full description of all `/sightings` properties, see [`/sightings` resource](./sightings-resource.md#parameters).
+For a full description of all `/sightings` properties, see [`/sightings` resource](./sightings-resource.md#properties).
 
 ## Request body
 
