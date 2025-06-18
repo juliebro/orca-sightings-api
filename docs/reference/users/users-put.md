@@ -28,7 +28,7 @@ Updates the entire user record for the specified `id`.
 Also see:
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Required: the `id` of the user you want to update.
 
