@@ -23,7 +23,7 @@ Also see the [`/users` resource](../users/users-resource.md).
 
 Also see [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Example of a full `/sightings` resource:
 
@@ -37,9 +37,9 @@ Example of a full `/sightings` resource:
 }
 ```
 
-Description of resource parameters:
+Description of resource properties:
 
-| Parameter | Type      | Description                                                  | Example                        |
+| Property | Type      | Description                                                  | Example                        |
 | ---------- | --------- | ------------------------------------------------------------ | ------------------------------ |
 | `id`       | `integer` | Unique identifier for the sighting. Read-only and automatically generated. | `1`                            |
 | `user_id`  | `integer` | The ID of the user who reported the sighting, as described in the [`/users` resource](../users-resource/users-resource.md). | `1`                            |
