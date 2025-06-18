@@ -32,11 +32,11 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Optional: the `id` of a specific sighting to list.
 
-For a full description of all `/sightings` properties, see [`/sightings` resource](./sightings-resource.md#parameters).
+For a full description of all `/sightings` properties, see [`/sightings` resource](./sightings-resource.md#properties).
 
 ## Headers
 
