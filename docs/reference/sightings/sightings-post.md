@@ -31,13 +31,13 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Optional, but recommended: `user_id`, `pod`, `time`, and `location`. The service automatically assigns the new user a unique `id`.
 
 > If you don't include any data in your request, the server creates an empty sighting with a unique ID.
 
-For a description of these parameters, see [`/sightings` resource](./sightings-resource.md#parameters).
+For a description of these properties, see [`/sightings` resource](./sightings-resource.md#properties).
 
 ## Headers
 
