@@ -29,16 +29,16 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Required: specify the `id` of the sighting you want to update in the endpoint.
 
-Optional: you should include all: you can use the following parameters to update a sighting: `user_id`, `pod`, `time`, and `location`.
+Optional: you should include all: you can use the following properties to update a sighting: `user_id`, `pod`, `time`, and `location`.
 
 {: .note }
 If you don't include the full data in your request, the server creates the sighting again with no data in that field. Likewise, if you don't include any data in your request, the server creates an empty sighting with the existing ID.
 
-For a description of these parameters, see [`/sightings` resource](./sightings-resource.md#parameters).
+For a description of these properties, see [`/sightings` resource](./sightings-resource.md#properties).
 
 ## Headers
 
