@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Set up your dev environment
+title: Set up your environment
 parent: Tutorials
 nav_order: 1
 ---
@@ -10,13 +10,13 @@ nav_order: 1
 - TOC
 {:toc}
 
-# Set up your development environment: a tutorial
+# Set up your environment: a tutorial
 
 > Adapted from [To-do service API: Before you start a tutorial](https://uwc2-apidoc.github.io/to-do-service-sp25/before-you-start-a-tutorial.html).
 
 ## Overview
 
-Before you begin using the Orca Sightings service, you must set up your development environment.
+Before you begin using the Orca Sightings service, you must set up your environment.
 
 Expect this to take about 30 minutes to complete.
 
@@ -66,7 +66,9 @@ Use cURL or Postman to test the service.
 
 ### Using cURL
 
-
+```shell
+curl -X GET http://localhost:3000/users/4
+```
 
 ### Using Postman
 
