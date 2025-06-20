@@ -124,7 +124,7 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 #
-# favicon 
+# favicon for the browser tab
 favicon_ico: /images/favicon.png
 
 #
@@ -152,7 +152,7 @@ footer_content: "Copyright &copy; 2025 Julie Brodeur (technical writer) and Jeff
 #         in the navigation, where 1 is the first entry, 2 is below 1, etc.
 #       See also https://just-the-docs.com/docs/navigation/main/order/
 #
-#   has_children: true
+#   has_children: true !!! Note: This is no longer required.
 #       Specifies if this topic has sub-topics. Value can be true or false.
 #       If the topic has sub-topics, the sub-topics must contain the parent
 #         property in their front matter and list the page name of the topic

@@ -36,7 +36,8 @@ In this example, -X specifies the method, -H indicates the header, and -d specif
 **To use Postman:**
 
 1. Select **POST** and enter  `http://localhost:3000/users/`.
-2. In the request body, select **Body > raw > JSON** and enter:
+2. In the **Header** tab, select **Content-Type** and then **application/json**.
+3. In the request body, select **Body > raw > JSON** and enter:
 
 ```json
 {

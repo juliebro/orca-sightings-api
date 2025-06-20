@@ -26,8 +26,8 @@ I need to make sure the following links work after I've created the files.
 
 The Orca Sightings service is a RESTful API designed to support this community. It offers two main resources: `/users` and `/sightings`. Each resource supports standard HTTP methods, including GET, POST, PUT, PATCH, and DELETE, so your app can perform the following actions:
 
-- [Create new user profiles](./tutorials/add-user.md) and [log new orca sightings](./tutorials/add-new-sighting.md).
-- [Retrieve all or specific user](./tutorials/get-user.md) and [sighting records](./tutorials/get-sighting.md).
+- [Create new user profiles](./tutorials/add-user.md) and [log new orca sightings](./tutorials/add-sighting.md).
+- [Retrieve all or specific user](./tutorials/list-users.md) and [sighting records](./tutorials/list-sightings.md).
 - [Update existing user information](./tutorials/update-user.md) and [sighting details](./tutorials/update-sighting.md).
 - [Delete user accounts](./tutorials/delete-user.md) and [sighting entries](./tutorials/delete-sighting.md).
 
