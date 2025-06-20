@@ -16,8 +16,8 @@ This tutorial should take you about 25 minutes to complete.
 
 Also see the API reference pages:
 
-- [PUT /users](../reference/users-resource/users-put.md)
-- [PATCH /users](../reference/users-resource/users-patch.md)
+- [PUT /users](../reference/users/users-put.md)
+- [PATCH /users](../reference/users/users-patch.md)
 
 ## Before you begin
 

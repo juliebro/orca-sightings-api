@@ -5,7 +5,7 @@ parent: Tutorials
 nav_order: 3
 ---
 
-# Start the Orca Sightings service
+# Start the Orca Sightings service: a tutorial
 
 To start the Orca Sightings service:
 

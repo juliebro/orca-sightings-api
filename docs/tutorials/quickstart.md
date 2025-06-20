@@ -51,21 +51,20 @@ To start the Orca Sightings service:
 
 In this part of the tutorial, you'll use cURL or Postman to list all orca whale sightings.
 
-### If you're using cURL
+**To use cURL:**
 
-1. Open a terminal window.
+1. Open a new terminal window.
 2. Run this command:
 
 ```shell
 curl -X GET http://localhost:3000/sightings
 ```
 
-### If you're using Postman
+**To use Postman:**
 
-1 In Postman's main panel on the right, toward the top, select **GET**.
-2. Add the following content to the URL text box next to GET: `http://localhost:3000/users/`.
-3. If you don't already have the header designated, choose **Headers** and specify **Content-Type: application/json**.
-4. Click **Send**.
+1. In Postman's main panel on the right, toward the top, select **GET**.
+2. Add the following content to the URL text box next to GET: `http://localhost:3000/sightings/`.
+3. Click **Send**.
 
 ## Step 4: View the response
 
