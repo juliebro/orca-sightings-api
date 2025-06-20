@@ -62,4 +62,4 @@ Both of the previous examples should return the information from the request bod
 {: .note }
 The `id` might be different if you've completed other tutorials first.
 
-You've completed this tutorial. Next, try other [tutorials](./tutorials.md) or refer to the reference topic [POST /users](../reference/users-resource/users-post.md).
+You've completed this tutorial. Next, try other [tutorials](./tutorials.md) or refer to the reference topic [POST /users](../reference/users/users-post.md).
