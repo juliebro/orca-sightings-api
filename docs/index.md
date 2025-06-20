@@ -22,7 +22,7 @@ The orca whale watching community is niche but active. It includes a variety of 
 ## Features
 
 {: .comment }
-This section includes links to the relevant tutorials for each action. Most of the links don't work now.
+I need to make sure the following links work after I've created the files.
 
 The Orca Sightings service is a RESTful API designed to support this community. It offers two main resources: `/users` and `/sightings`. Each resource supports standard HTTP methods, including GET, POST, PUT, PATCH, and DELETE, so your app can perform the following actions:
 

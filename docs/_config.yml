@@ -124,8 +124,12 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 #
+# favicon 
+favicon_ico: /images/favicon.png
+
+#
 #   !!! CHANGE THIS VALUE TO APPLY TO YOUR DOCUMENTATION
-footer_content: "Copyright &copy; 2025 Julie Brodeur (technical writer) and Jeff Naemura (subject matter expert). Distributed by an MIT license. This work is for educational purposes only." 
+footer_content: "Copyright &copy; 2025 Julie Brodeur (technical writer) and Jeff Naemura (subject matter expert). Distributed by an MIT license. This work is for educational and demonstration purposes only." 
 
 # - - - - - - - - - - - - - - - - 
 #
