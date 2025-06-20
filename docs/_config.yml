@@ -16,7 +16,7 @@ nav_enabled: true
 #     The format for this property's value is <GitHub account>/<repo> 
 #   *** DO NOT CHANGE THIS VALUE
 remote_theme: just-the-docs/just-the-docs
-#   color_scheme: ocean - Tried a new color scheme that didn't quite work out.
+
 #   For information about this theme and its options, see: https://just-the-docs.com/
 #
 # These values describe aspects of the final documentation. How they are
