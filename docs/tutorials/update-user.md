@@ -5,9 +5,6 @@ parent: Tutorials
 nav_order: 5
 ---
 
-{: comment }
-Need to add cURL examples
-
 **On this page:**
 
 - TOC
@@ -31,7 +28,29 @@ Also see the API reference pages:
 
 Use the PUT method to update a full user entry.
 
-### Step 1: list all users to find the `id` of the user you want to update.
+### Step 1: list all users to find the `id` of the user you want to update
+
+You can use cURL or Postman to submit a PUT request.
+
+**To use cURL:**
+
+1. Open a new terminal window.
+2. [List all users](./list-users.md). Notice the user entry with an `id` of `4`.
+3. Include that information in a cURL request, changing the first name to `Ken` and the email to `ken.mccormick@gmail.com`:
+
+```shell
+curl -X PUT \
+     -H "Content-Type: application/json" \
+     -d '{ "last_name": "McCormick", "first_name": "Ken", "email": "ken.mccormick@gmail.com" }' \
+     http://localhost:3000/users/4
+```
+
+In the cURL command, `-X` denotes the method to use, `-H` indicates the header to use, and `-d` specifies the data to include.
+
+{: .comment }
+Do I need to include the `id` jn a `PUT` request, or only include it in the endpoint?
+
+**To use Postman:**
 
 1. Open Postman.
 2. [List all users](./list-users.md). 
@@ -100,6 +119,30 @@ Notice that the response includes the entire entry details with the ID.
 
 Update just a part of the user entry using the PATCH method. We'll choose the user with an `id` of `1` to update.
 
+**To use cURL:**
+
+Send a request using cURL with the following command:
+
+```shell
+curl -X PATCH \
+     -H "Content-Type: application/json" \
+     -d '{ "email": "stan@example.com" }' \
+     http://localhost:3000/users/1
+```
+
+Notice that the response includes the entire entry details with the updated email.
+
+```shell
+{
+    "last_name": "Marsh",
+    "first_name": "Stan",
+    "email": "stan@example.com",
+    "id": 1
+}
+```
+
+**To use Postman:**
+
 1. In Postman's main panel on the right, toward the top, select **PATCH**.
 2. Add the following content to the URL text box next to PATCH: `http://localhost:3000/users/1`. This indicates that you'll update some information for the user that has an ID of 1.
 3. If you don't already have the header designated, choose **Headers** and specify **Content-Type: application/json**.
@@ -122,3 +165,5 @@ Notice that the response includes the entire entry details with the updated emai
     "id": 1
 }
 ```
+
+You've completed this tutorial. Next try other [tutorials](./tutorials.md) or refer to the [PUT](../reference/users/users-put.md) and [PATCH](../reference/users/users-patch.md) reference topics.
