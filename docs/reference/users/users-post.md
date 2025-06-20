@@ -55,7 +55,7 @@ curl -X POST \
 
 ### Postman example
 
-Shows creating a new user named Ben Waters.
+Creates a new user named Ben Waters.
 
 #### Request builder method and endpoint
 
