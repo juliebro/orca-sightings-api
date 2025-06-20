@@ -2,7 +2,7 @@
 layout: default
 title: Start the service
 parent: Tutorials
-nav_order: 3
+nav_order: 2
 ---
 
 # Start the Orca Sightings service: a tutorial

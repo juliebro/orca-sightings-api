@@ -2,7 +2,7 @@
 layout: default
 title: Get started by listing orca sightings
 parent: Tutorials
-nav_order: 2
+nav_order: 3
 ---
 
 **On this page:**

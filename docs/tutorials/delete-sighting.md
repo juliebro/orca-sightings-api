@@ -2,7 +2,7 @@
 layout: default
 title: Delete a sighting
 parent: Tutorials
-nav_order: 6
+nav_order: 10
 ---
 
 **On this page:**

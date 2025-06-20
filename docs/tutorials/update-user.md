@@ -2,7 +2,7 @@
 layout: default
 title: Update a user
 parent: Tutorials
-nav_order: 5
+nav_order: 6
 ---
 
 **On this page:**

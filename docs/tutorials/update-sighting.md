@@ -2,7 +2,7 @@
 layout: default
 title: Update a sighting
 parent: Tutorials
-nav_order: 5
+nav_order: 9
 ---
 
 {: .comment }

@@ -2,7 +2,7 @@
 layout: default
 title: Add a new sighting
 parent: Tutorials
-nav_order: 7
+nav_order: 8
 ---
 
 **On this page:**

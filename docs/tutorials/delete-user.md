@@ -2,7 +2,7 @@
 layout: default
 title: Delete a user
 parent: Tutorials
-nav_order: 6
+nav_order: 7
 ---
 
 **On this page:**

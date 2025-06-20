@@ -2,7 +2,7 @@
 layout: default
 title: Add a new user
 parent: Tutorials
-nav_order: 4
+nav_order: 5
 ---
 
 **On this page:**
