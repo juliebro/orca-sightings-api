@@ -1,0 +1,47 @@
+// Ocean Color Scheme
+
+// Define base colors
+$ocean-blue-deep: #026280; // Deep Ocean Blue
+$ocean-blue-medium: #134B70; // A darker medium blue
+$ocean-blue-light: #5B99C2; // A lighter blue
+$seafoam-green: #68c0aa; // Sea Green / Aquamarine
+$sandy-beige: #f4edc3; // A light sandy color
+$coral-reef: #fbb39a; // A warm coral accent
+
+
+// Define color variations for different uses (e.g., backgrounds, text, borders)
+$background-color: $sandy-beige; // Background inspired by the sand
+$text-color: $ocean-blue-deep; // Dark blue text for readability
+$heading-color: $ocean-blue-medium; // Medium blue for headings
+$link-color: $seafoam-green; // Greenish-blue for links
+$button-primary-background: $ocean-blue-light; // Light blue for primary buttons
+$button-primary-text: #fff; // White text for primary buttons
+$border-color: $ocean-blue-light; // Light blue for borders
+
+// Example usage of variables in your CSS
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+h1, h2, h3 {
+  color: $heading-color;
+}
+
+a {
+  color: $link-color;
+  &:hover {
+    color: darken($link-color, 15%); // Darken link color on hover
+  }
+}
+
+button.primary {
+  background-color: $button-primary-background;
+  color: $button-primary-text;
+  border: 1px solid $button-primary-background;
+}
+
+div {
+  border: 1px solid $border-color;
+  padding: 1rem;
+}
