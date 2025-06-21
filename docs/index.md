@@ -24,7 +24,7 @@ The orca whale watching community is niche but active. It includes a variety of 
 The Orca Sightings service is a RESTful API designed to support this community. It offers two main resources: `/users` and `/sightings`. Each resource supports standard HTTP methods, including GET, POST, PUT, PATCH, and DELETE, so your app can perform the following actions:
 
 - [Create new user profiles](./tutorials/add-user.md) and [log new orca sightings](./tutorials/add-sighting.md).
-- [Retrieve all or specific user](./tutorials/quickstart.md) and [sighting records](./tutorials/list-sightings.md).
+- [Retrieve all or specific user](./tutorials/list-users.md) and [sighting records](./tutorials/quickstart.md).
 - [Update existing user information](./tutorials/update-user.md) and [sighting details](./tutorials/update-sighting.md).
 - [Delete user accounts](./tutorials/delete-user.md) and [sighting entries](./tutorials/delete-sighting.md).
 

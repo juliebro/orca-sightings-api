@@ -116,4 +116,4 @@ If you receive an error in any step of the procedure, investigate, and correct t
 - A required software component didn't install correctly.
 - A required software component isn't up to date.
 
-If you see the list of users from the service, you're ready to start the [Tutorials](./tutorials/tutorials.md).
+If you see the list of users from the service, you're ready to start the [Tutorials](./tutorials.md).
