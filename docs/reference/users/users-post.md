@@ -44,7 +44,7 @@ For a description of these properties, see [`/users` resource](./users-resource.
 
 ### cURL example
 
-Shows creating a new user named Ben Waters.
+Creates a new user named Ben Waters.
 
 ```shell
 curl -X POST \

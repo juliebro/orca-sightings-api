@@ -13,7 +13,7 @@ To start the Orca Sightings service:
 
 2. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to show it's running.
 
-   ```shell
+```shell
    user@macbookair ~ % json-server orca-sightings-db.json
    
      \{^_^}/ hi!
@@ -27,6 +27,6 @@ To start the Orca Sightings service:
    
      Home
      http://localhost:3000
-   ```
+```
 
-Also see [Tutorials](./tutorials.md).
+Also see more [Tutorials](./tutorials.md) or the [API reference](../reference/api-reference.md).
