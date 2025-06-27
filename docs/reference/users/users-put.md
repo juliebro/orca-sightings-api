@@ -28,7 +28,7 @@ Updates the entire user record for the specified `id`.
 Also see:
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Required: the `id` of the user you want to update.
 
@@ -37,7 +37,7 @@ Optional, you should include all: `first_name`, `last_name`, and `email`.
 {: .warning }
 If you don't include this data in your request, the server creates the user again with no data in that field. Likewise, if you don't include any data in your request, the server creates an empty user with the existing ID.
 
-For a description of these properties, see [`/users` resource](./users-resource.md#parameters).
+For a description of these properties, see [`/users` resource](./users-resource.md#properties).
 
 ## Headers
 

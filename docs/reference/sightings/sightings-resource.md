@@ -23,7 +23,7 @@ Also see the [`/users` resource](../users/users-resource.md).
 
 Also see [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Example of a full `/sightings` resource:
 
@@ -37,12 +37,12 @@ Example of a full `/sightings` resource:
 }
 ```
 
-Description of resource parameters:
+Description of resource properties:
 
-| Parameter | Type      | Description                                                  | Example                        |
+| Property | Type      | Description                                                  | Example                        |
 | ---------- | --------- | ------------------------------------------------------------ | ------------------------------ |
 | `id`       | `integer` | Unique identifier for the sighting. Read-only and automatically generated. | `1`                            |
-| `user_id`  | `integer` | The ID of the user who reported the sighting, as described in the [`/users` resource](../users-resource/users-resource.md). | `1`                            |
+| `user_id`  | `integer` | The ID of the user who reported the sighting, as described in the [`/users` resource](../users/users-resource.md). | `1`                            |
 | `pod`      | `string`  | The identified pod of orca. Available attributes are `J-pod`, `K-pod`, `T49A`, and `unknown`). | `"J-pod"`                      |
 | `time`     | `string`  | The timestamp of the sighting in [ISO 8601 format](../iso-8601-format.md). | `"2025-05-03T10:00"`           |
 | `location` | `string`  | The location where the sighting occurred.                    | `"Lime Kiln Point State Park"` |

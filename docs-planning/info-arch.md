@@ -1,6 +1,6 @@
 # Information architecture for orca-sightings-api docs
 
-*Draft 2*
+*Draft 3*
 
 ## `/docs`
 
@@ -24,7 +24,7 @@ Contains "index" file  `tutorials.md`.  Also includes:
 
 Supporting topics that are reused across other topics:
 
-- `set-up-dev-env.md` → how to set up the development environment
+- `set-up-dev-env.md` → how to set up the environment for using tutorials
 - `start-service.md` → how to start the Orca Sightings service
 
 ### `/reference`

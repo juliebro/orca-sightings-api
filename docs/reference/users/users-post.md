@@ -30,11 +30,11 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
-Optional, you should include all:  `first_name`, `last_name`, and `email`. The service automatically assigns the new user a unique `id`.
+Optional, but you should include all:  `first_name`, `last_name`, and `email`. The service automatically assigns the new user a unique `id`.
 
-For a description of these properties, see [`/users` resource](./users-resource.md#parameters).
+For a description of these properties, see [`/users` resource](./users-resource.md#properties).
 
 ## Headers
 
@@ -44,7 +44,7 @@ For a description of these properties, see [`/users` resource](./users-resource.
 
 ### cURL example
 
-Shows creating a new user named Ben Waters.
+Creates a new user named Ben Waters.
 
 ```shell
 curl -X POST \
@@ -55,7 +55,7 @@ curl -X POST \
 
 ### Postman example
 
-Shows creating a new user named Ben Waters.
+Creates a new user named Ben Waters.
 
 #### Request builder method and endpoint
 

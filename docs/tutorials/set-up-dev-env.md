@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Set up your dev environment
+title: Set up your environment
 parent: Tutorials
 nav_order: 1
 ---
@@ -10,13 +10,13 @@ nav_order: 1
 - TOC
 {:toc}
 
-# Set up your development environment: a tutorial
+# Set up your environment: a tutorial
 
 > Adapted from [To-do service API: Before you start a tutorial](https://uwc2-apidoc.github.io/to-do-service-sp25/before-you-start-a-tutorial.html).
 
 ## Overview
 
-Before you begin using the Orca Sightings service, you must set up your development environment.
+Before you begin using the Orca Sightings service, you must set up your environment.
 
 Expect this to take about 30 minutes to complete.
 
@@ -28,20 +28,24 @@ Install the following software on your desktop, which should run a recent versio
 - A recent version of **[json-server](https://www.npmjs.com/package/json-server)**.
 - The [**Postman desktop app**](https://www.postman.com/downloads/). You’ll run the Orca Sightings service on your local development system, so the web version of Postman won’t work. The default port for localhost is 3000: `http://localhost:3000/`
 
-## Step 2: Download the relevant files from GitHub
+## Step 2: Download the database file from GitHub
 
-Download a current copy of the **database file** and the relevant **startup script**. You can [download these from the Orca Sightings service repository on GitHub](https://github.com/juliebro/orca-sightings-api/tree/main/api).
+Download a current copy of the database file `orca-sightings-db.json` from [the Orca Sightings service repository on GitHub](https://github.com/juliebro/orca-sightings-api/tree/main/api).
 
-To download each file:
+To download the file:
 
-1. Hover over a filename and click the link that appears.
+1. Hover over `orca-sightings-db.json` and click the link that appears.
 2. On the upper right side of the panel, click the download button, a down arrow.
-3. Do this for the `orca-sightings-db.json` file and one of the startup scripts: `orca-sightings.sh` for macOS and Linux or  `start-server.bat` for Windows.
+3. Copy this file to the same location as your `json-server` app.
 
 ## Step 3: Run JSON Server with the `orca-sightings-db.json` file
 
-1. Go to the directory on your computer where you downloaded `orca-sightings-db.json` and the relevant start script.
-2. On Windows, double-click the `start-server.bat` file to start the service. On macOS or Linux, open a terminal window, `cd` to the directory where you downloaded the files, and type `./orca-sightings.sh`. That runs the script in the current directory. If that doesn't work, type `json-server orca-sightings-db.json`. You should see some text like this that shows the service is running:
+To start the Orca Sightings service:
+
+1. Open a terminal window and `cd` to the location of the `json-server` app.
+2. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to show it's running.
+
+You should see some text like this that shows the service is running:
 
 ```shell
 
@@ -66,7 +70,9 @@ Use cURL or Postman to test the service.
 
 ### Using cURL
 
-
+```shell
+curl -X GET http://localhost:3000/users/4
+```
 
 ### Using Postman
 
@@ -114,4 +120,4 @@ If you receive an error in any step of the procedure, investigate, and correct t
 - A required software component didn't install correctly.
 - A required software component isn't up to date.
 
-If you see the list of users from the service, you're ready to start the [Tutorials](./tutorials/tutorials.md).
+If you see the list of users from the service, you're ready to start the [Tutorials](./tutorials.md).

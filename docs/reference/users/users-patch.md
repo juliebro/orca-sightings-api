@@ -10,7 +10,7 @@ nav_order: 4
 - TOC
 {:toc}
 
-# `PATCH /users`: Update some of the details about a user
+# `PATCH /users` update some of the details about a user
 
 Updates some of the details about a user.
 
@@ -19,7 +19,7 @@ Also see:
 - [Update all or part of a user entry: a tutorial](../../tutorials/update-user.md)
 - [GET: List all users](./users-get.md)
 - [GET: Get user by id](./users-get.md)
-- [PATCH: Update part of a sighting](../sightings-resource/sightings-patch.md)
+- [PATCH: Update part of a sighting](../sightings/sightings-patch.md)
 
 ## Method
 
@@ -33,11 +33,11 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Required: the `id` of the user you want to update.
 
-For a description of all parameters, see [`/users` resource](./users-resource.md#parameters).
+For a description of all properties, see [`/users` resource](./users-resource.md#properties).
 
 ## Headers
 

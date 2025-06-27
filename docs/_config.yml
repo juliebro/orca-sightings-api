@@ -16,6 +16,7 @@ nav_enabled: true
 #     The format for this property's value is <GitHub account>/<repo> 
 #   *** DO NOT CHANGE THIS VALUE
 remote_theme: just-the-docs/just-the-docs
+
 #   For information about this theme and its options, see: https://just-the-docs.com/
 #
 # These values describe aspects of the final documentation. How they are
@@ -124,8 +125,12 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 #
+# favicon for the browser tab
+favicon_ico: /images/favicon.png
+
+#
 #   !!! CHANGE THIS VALUE TO APPLY TO YOUR DOCUMENTATION
-footer_content: "Copyright &copy; 2025 Julie Brodeur (tech writer) and Jeff Naemura (subject matter expert)."
+footer_content: "Copyright &copy; 2025 Julie Brodeur (technical writer) and Jeff Naemura (subject matter expert). Distributed by an MIT license. This work is for educational and demonstration purposes only." 
 
 # - - - - - - - - - - - - - - - - 
 #
@@ -148,7 +153,7 @@ footer_content: "Copyright &copy; 2025 Julie Brodeur (tech writer) and Jeff Naem
 #         in the navigation, where 1 is the first entry, 2 is below 1, etc.
 #       See also https://just-the-docs.com/docs/navigation/main/order/
 #
-#   has_children: true
+#   has_children: true !!! Note: This is no longer required.
 #       Specifies if this topic has sub-topics. Value can be true or false.
 #       If the topic has sub-topics, the sub-topics must contain the parent
 #         property in their front matter and list the page name of the topic

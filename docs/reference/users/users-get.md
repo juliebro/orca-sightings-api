@@ -28,11 +28,11 @@ Also see:
 
 - [Base URL](../base-url.md)
 
-## Parameters
+## Properties
 
 Optional: the `id` of a specific user to list.
 
-For a description of all parameters, see [`/users` resource](./users-resource.md#parameters).
+For a description of all properties, see [`/users` resource](./users-resource.md#properties).
 
 ## Request body
 

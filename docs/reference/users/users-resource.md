@@ -23,7 +23,7 @@ Also see [`/sightings` resource](../sightings/sightings-resource.md).
 
 Also see [Base URL](../base-url.md).
 
-## Parameters
+## Properties
 
 Shows an example of a full `/users` resource:
 
@@ -36,9 +36,9 @@ Shows an example of a full `/users` resource:
 }
 ```
 
-Describes all parameters available in the `/users` resource:
+Describes all properties available in the `/users` resource:
 
-| Parameter     | Type      | Description                                                  | Example                  |
+| Property     | Type      | Description                                                  | Example                  |
 | ------------ | --------- | ------------------------------------------------------------ | ------------------------ |
 | `last_name`  | `string`  | The user's last name.                                        | `"Marsh"`                |
 | `first_name` | `string`  | The user's first name.                                       | `"Stan"`                 |
