@@ -10,7 +10,6 @@ nav_order: 2
 To start the Orca Sightings service:
 
 1. Open a terminal window and `cd` to the location of the `json-server` app.
-
 2. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to show it's running.
 
 ```shell

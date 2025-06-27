@@ -14,21 +14,19 @@ nav_order: 3
 
 This tutorial shows you how to download the API files and try one of the service actions: viewing all orca sightings reported in the app for the San Juan Islands. If you've already [set up your environment](./set-up-dev-env.md), the process should take about 20 minutes.
 
-## Step 1: Make sure you have the API files
+## Step 1: Make sure you have the API database file
 
-The files are located in the [orca-sightings-api repo on GitHub](https://github.com/juliebro/orca-sightings-api/tree/main/api). The directory contains the following files:
+If you haven't already done so:
 
-- `orca-sightings-db.json`: a JSON file containing example users and sightings.
-- `orca-sightings.sh`: a shell script that starts JSON Server. Use this for Linux or macOS.
-- `orca-sightings.bat`: a batch file that starts JSON Server. Use this for Windows.
+1. Download `orca-sightings-db.json`. The file is at [orca-sightings-api repo on GitHub](https://github.com/juliebro/orca-sightings-api/tree/main/api). This is a JSON file containing example users and sightings.
+2. Copy this file into the same location as your `json-server` app.
 
 ## Step 2: Start JSON Server with the Orca Sightings service
 
 To start the Orca Sightings service:
 
 1. Open a terminal window and `cd` to the location of the `json-server` app.
-2. Make sure you intall the API files in the same directory. If they aren't, copy or move them now.
-3. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to show it's running.
+2. Start the service by typing `json-server orca-sightings-db.json`. The service starts and lists some information to show it's running.
 
 ```shell
  user@macbookair ~ % json-server orca-sightings-db.json
@@ -135,4 +133,4 @@ In Postman, you should also see a green 200 OK message at the top of the pane. H
 
 That's it. Next, view the reference topic [`GET /sightings`](../reference/sightings/sightings-get.md) to see an example of listing a specific sighting by its `id`.
 
-Also, you can try other [tutorials](./tutorials.md) like [adding a user](./add-user.md) or view other topics in the [API reference](../reference/api-reference.md).
+You can also try other [tutorials](./tutorials.md) like [adding a user](./add-user.md) or view other topics in the [API reference](../reference/api-reference.md).

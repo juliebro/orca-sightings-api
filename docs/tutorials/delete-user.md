@@ -26,7 +26,8 @@ In this section, you'll delete the user with an `id` of `4`.
 **To use cURL:**
 
 1. Open a new terminal window.
-2. Run the following command:
+2. [Find the user](./list-users.md) you want to delete.
+3. Run the following command:
 
 ```shell
 curl -X DELETE http://localhost:3000/users/4
