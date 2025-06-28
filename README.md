@@ -17,4 +17,4 @@ This is a RESTful API service with `/users` and `/sightings` resources. Each res
 
 ## Next steps
 
-[Download the API files](https://github.com/juliebro/orca-sightings-api/tree/main/api) and [read the docs](https://juliebro.github.io/orca-sightings-api/).
+[Download the API files](https://github.com/juliebro/orca-sightings-api/tree/main/api) and [read the docs](https://juliebro.github.io/orca-sightings-api/) or [see a presentation](https://www.canva.com/design/DAGrHXdgxLU/XUMvjvBKm1j3Us_RgC1RfA/view?utm_content=DAGrHXdgxLU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6cc8cd8d08) about the docs.
