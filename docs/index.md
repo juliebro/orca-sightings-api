@@ -11,7 +11,7 @@ This cloud-based service tracks the movements of orca pods around the San Juan I
 
 Using this service, orca enthusiasts can report the location and time of their sightings off the coast of any of the San Juan Islands, making it easy for others to sight these whales from land so they don't have to charter a boat. As a developer, you can include this service in your app.
 
-To get started, learn how to [set up your environment](./tutorials/set-up-dev-env.md) and [list all sightings](./tutorials/quickstart.md) in the service, or jump down to learn more about the [user community](#user-community) and [features](#features). There's also a [short presentation](https://www.canva.com/design/DAGrHXdgxLU/XUMvjvBKm1j3Us_RgC1RfA/view?utm_content=DAGrHXdgxLU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6cc8cd8d08){:target="_blank"} about this documentation.
+To get started, learn how to [set up your environment](./tutorials/set-up-dev-env.md) and [list all sightings](./tutorials/quickstart.md) in the service, or jump down to learn more about the [user community](#user-community) and [features](#features). There's also a [short presentation](https://www.canva.com/design/DAGrHXdgxLU/XUMvjvBKm1j3Us_RgC1RfA/view?utm_content=DAGrHXdgxLU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6cc8cd8d08) about this documentation.
 
 ![ Photo of orca whales](./images/orca-photo.png)
 
